@@ -6,7 +6,7 @@ System prompt for the OpenAI API to extract naming elements from model names.
 BACKGROUND_PROMPT = f"""
 You are a neural network model name analyzer. Parse each given model name into the following categories:
 
-- Architecture [A]: e.g, bert, albert, resnet
+- Architecture [A]: e.g, bert, albert, resnet, deepseek, llama
 - Model size [S]: e.g, 50, 101, base, large, xxlarge
 - Dataset [D]: e.g, squad, imagenet, roman-empire
 - Dataset characteristic [C]: e.g. case, uncased, 1024-1024, 224
