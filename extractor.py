@@ -14,6 +14,7 @@ import random
 import pandas as pd
 from openai import OpenAI
 from loguru import logger
+from tqdm import tqdm
 
 from system_prompt import BACKGROUND_PROMPT
 from schema import JSON_SCHEMA, CATEGORIES
@@ -23,7 +24,7 @@ CSV_FILE_PATH = 'data/HF_pkgs.csv'
 OUTPUT_JSON_PATH = 'data/hf_pkg_elements.json'
 OUTPUT_CSV_PATH = 'data/hf_pkg_elements.csv'
 MIN_DOWNLOADS = 1000
-BATCH_SIZE = 50  # Number of models to process in one API call
+BATCH_SIZE = 100  # Number of models to process in one API call
 MAX_RERUNS = 8  # Maximum retries for a failed batch with reduced size
 MODEL_NAME = "o4-mini-2025-04-16"
 COST_PER_PROMPT_TOKEN = 1.10 / 1_000_000
@@ -97,7 +98,7 @@ def call_openai_api(package_batch: list[str]):
     response = client.chat.completions.create(
         model=MODEL_NAME,
         messages=chatlog,
-        temperature=1,
+        reasoning_effort="low",
         response_format={"type": "json_object"}
     )
     return response
@@ -244,6 +245,11 @@ def run_extraction(package_names: list[str], output_json_path: str, output_csv_p
     total_cost = 0.0
     failed_batches_indices = [] # Store start indices of batches that failed permanently
 
+    # Create progress bar
+    pbar = tqdm(total=num_to_process, desc="Extracting name elements", unit="pkg")
+    # Track already processed in this run for progress bar
+    this_run_processed = 0
+
     while i < num_to_process:
         batch_start_time = time.time()
         # Adjust batch size based on reruns
@@ -268,6 +274,11 @@ def run_extraction(package_names: list[str], output_json_path: str, output_csv_p
             # Update results and save incrementally
             all_results.update(batch_results)
             processed_count_in_batch = len(batch_results)
+            
+            # Update progress bar
+            pbar.update(processed_count_in_batch)
+            this_run_processed += processed_count_in_batch
+            
             if processed_count_in_batch < actual_batch_size:
                  logger.warning(f"Successfully processed {processed_count_in_batch}/{actual_batch_size} packages in the batch.")
             
@@ -309,13 +320,19 @@ def run_extraction(package_names: list[str], output_json_path: str, output_csv_p
 
                 i += actual_batch_size # Move index forward past the failed batch
                 rerun_cnt = 0 # Reset for the next batch
+                
+                # Update progress bar to skip failed items
+                pbar.update(actual_batch_size - processed_count_in_batch)
             else:
                  logger.info(f"Reducing batch size and retrying (Attempt {rerun_cnt+1})...")
                  time.sleep(2 ** rerun_cnt) # Exponential backoff before retry
 
+    # Close the progress bar
+    pbar.close()
+
     end_time = time.time()
     logger.info(f"--- Extraction Complete ---")
-    logger.info(f"Total packages analyzed in this run: {len(all_results) - len(processed_packages)}")
+    logger.info(f"Total packages analyzed in this run: {this_run_processed}")
     logger.info(f"Total results saved: {len(all_results)}")
     logger.info(f"Total estimated cost for this run: ${total_cost:.4f}")
     logger.info(f"Total time taken: {end_time - start_time:.2f} seconds")

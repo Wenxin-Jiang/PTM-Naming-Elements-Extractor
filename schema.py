@@ -16,6 +16,8 @@ CATEGORIES = {
     'N': 'Number of layers',
     'H': 'Number of heads',
     'P': 'Number of parameters',
+    'W': 'Framework/Format',
+    'M': 'Company/Organization',
     'O': 'Other'
 }
 

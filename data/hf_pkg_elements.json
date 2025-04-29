@@ -1098,5 +1098,867 @@
       "component": "AnimeMix",
       "category": "O"
     }
+  ],
+  "lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF": [
+    {
+      "component": "Meta",
+      "category": "O"
+    },
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3",
+      "category": "V"
+    },
+    {
+      "component": "120B",
+      "category": "S"
+    },
+    {
+      "component": "Instruct",
+      "category": "F"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "timm/tf_efficientnetv2_b0.in1k": [
+    {
+      "component": "tf",
+      "category": "W"
+    },
+    {
+      "component": "efficientnetv2",
+      "category": "A"
+    },
+    {
+      "component": "b0",
+      "category": "S"
+    },
+    {
+      "component": "in1k",
+      "category": "D"
+    }
+  ],
+  "quantumaikr/KoreanLM-hf": [
+    {
+      "component": "Korean",
+      "category": "L"
+    },
+    {
+      "component": "LM",
+      "category": "A"
+    },
+    {
+      "component": "hf",
+      "category": "W"
+    }
+  ],
+  "Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix": [
+    {
+      "component": "Lumimaid",
+      "category": "O"
+    },
+    {
+      "component": "v0.2",
+      "category": "V"
+    },
+    {
+      "component": "12B",
+      "category": "S"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    },
+    {
+      "component": "IQ",
+      "category": "O"
+    },
+    {
+      "component": "Imatrix",
+      "category": "O"
+    }
+  ],
+  "facebook/rag-token-nq": [
+    {
+      "component": "rag",
+      "category": "A"
+    },
+    {
+      "component": "token",
+      "category": "O"
+    },
+    {
+      "component": "nq",
+      "category": "D"
+    }
+  ],
+  "cahya/t5-base-indonesian-summarization-cased": [
+    {
+      "component": "t5",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "indonesian",
+      "category": "L"
+    },
+    {
+      "component": "summarization",
+      "category": "T"
+    },
+    {
+      "component": "cased",
+      "category": "C"
+    }
+  ],
+  "cis-lmu/glotlid": [
+    {
+      "component": "glotlid",
+      "category": "O"
+    }
+  ],
+  "facebook/seamless-m4t-v2-large": [
+    {
+      "component": "seamless-m4t",
+      "category": "A"
+    },
+    {
+      "component": "v2",
+      "category": "V"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    }
+  ],
+  "DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF": [
+    {
+      "component": "KingNish",
+      "category": "O"
+    },
+    {
+      "component": "Reasoning",
+      "category": "T"
+    },
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3b",
+      "category": "S"
+    },
+    {
+      "component": "v0.1",
+      "category": "V"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "FelixChao/Voldemort-10B": [
+    {
+      "component": "Voldemort",
+      "category": "O"
+    },
+    {
+      "component": "10B",
+      "category": "S"
+    }
+  ],
+  "digiplay/Burger_Mix_semiR2Lite": [
+    {
+      "component": "Burger",
+      "category": "O"
+    },
+    {
+      "component": "Mix",
+      "category": "O"
+    },
+    {
+      "component": "semiR2Lite",
+      "category": "O"
+    }
+  ],
+  "Kquant03/Raiden-16x3.43B": [
+    {
+      "component": "Raiden",
+      "category": "O"
+    },
+    {
+      "component": "16x3.43B",
+      "category": "O"
+    }
+  ],
+  "lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer": [
+    {
+      "component": "flan_t5",
+      "category": "A"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    },
+    {
+      "component": "adversarial_qa",
+      "category": "D"
+    },
+    {
+      "component": "droberta",
+      "category": "A"
+    },
+    {
+      "component": "question_context_answer",
+      "category": "T"
+    }
+  ],
+  "jinaai/jina-embeddings-v2-base-zh": [
+    {
+      "component": "jina-embeddings",
+      "category": "A"
+    },
+    {
+      "component": "v2",
+      "category": "V"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "zh",
+      "category": "L"
+    }
+  ],
+  "ajibawa-2023/SlimOrca-13B": [
+    {
+      "component": "SlimOrca",
+      "category": "A"
+    },
+    {
+      "component": "13B",
+      "category": "S"
+    }
+  ],
+  "Magpie-Align/MagpieLM-8B-SFT-v0.1": [
+    {
+      "component": "MagpieLM",
+      "category": "A"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    },
+    {
+      "component": "SFT",
+      "category": "F"
+    },
+    {
+      "component": "v0.1",
+      "category": "V"
+    }
+  ],
+  "Edentns/DataVortexS-10.7B-dpo-v1.9": [
+    {
+      "component": "DataVortexS",
+      "category": "A"
+    },
+    {
+      "component": "10.7B",
+      "category": "S"
+    },
+    {
+      "component": "dpo",
+      "category": "F"
+    },
+    {
+      "component": "v1.9",
+      "category": "V"
+    }
+  ],
+  "uni-tianyan/Uni-TianYan": [
+    {
+      "component": "Uni",
+      "category": "O"
+    },
+    {
+      "component": "TianYan",
+      "category": "O"
+    }
+  ],
+  "mradermacher/Wingless_Imp_8B-i1-GGUF": [
+    {
+      "component": "Wingless_Imp",
+      "category": "A"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    },
+    {
+      "component": "i1",
+      "category": "V"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli": [
+    {
+      "component": "DeBERTa",
+      "category": "A"
+    },
+    {
+      "component": "v3",
+      "category": "V"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "mnli",
+      "category": "D"
+    },
+    {
+      "component": "fever",
+      "category": "D"
+    },
+    {
+      "component": "anli",
+      "category": "D"
+    }
+  ],
+  "e-palmisano/Qwen2-0.5B-ITA-Instruct": [
+    {
+      "component": "Qwen2",
+      "category": "A"
+    },
+    {
+      "component": "0.5B",
+      "category": "S"
+    },
+    {
+      "component": "ITA",
+      "category": "L"
+    },
+    {
+      "component": "Instruct",
+      "category": "F"
+    }
+  ],
+  "ChrisWilson011016/5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6_vgg": [
+    {
+      "component": "5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6",
+      "category": "O"
+    },
+    {
+      "component": "vgg",
+      "category": "A"
+    }
+  ],
+  "MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF": [
+    {
+      "component": "Meta",
+      "category": "O"
+    },
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3.1",
+      "category": "V"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    },
+    {
+      "component": "Instruct",
+      "category": "F"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF": [
+    {
+      "component": "Phi",
+      "category": "A"
+    },
+    {
+      "component": "3.1",
+      "category": "V"
+    },
+    {
+      "component": "mini",
+      "category": "S"
+    },
+    {
+      "component": "128k",
+      "category": "C"
+    },
+    {
+      "component": "instruct",
+      "category": "F"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "FreedomIntelligence/HuatuoGPT-Vision-34B": [
+    {
+      "component": "HuatuoGPT",
+      "category": "A"
+    },
+    {
+      "component": "Vision",
+      "category": "T"
+    },
+    {
+      "component": "34B",
+      "category": "S"
+    }
+  ],
+  "RekaAI/reka-flash-3": [
+    {
+      "component": "reka-flash",
+      "category": "A"
+    },
+    {
+      "component": "3",
+      "category": "V"
+    }
+  ],
+  "DTAI-KULeuven/robbert-v2-dutch-sentiment": [
+    {
+      "component": "robbert",
+      "category": "A"
+    },
+    {
+      "component": "v2",
+      "category": "V"
+    },
+    {
+      "component": "dutch",
+      "category": "L"
+    },
+    {
+      "component": "sentiment",
+      "category": "T"
+    }
+  ],
+  "maddes8cht/tiiuae-falcon-40b-instruct-gguf": [
+    {
+      "component": "tiiuae",
+      "category": "O"
+    },
+    {
+      "component": "falcon",
+      "category": "A"
+    },
+    {
+      "component": "40b",
+      "category": "S"
+    },
+    {
+      "component": "instruct",
+      "category": "F"
+    },
+    {
+      "component": "gguf",
+      "category": "W"
+    }
+  ],
+  "timm/convnextv2_base.fcmae_ft_in22k_in1k": [
+    {
+      "component": "convnextv2",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "fcmae_ft",
+      "category": "R"
+    },
+    {
+      "component": "in22k",
+      "category": "D"
+    },
+    {
+      "component": "in1k",
+      "category": "D"
+    }
+  ],
+  "mrm8488/t5-base-finetuned-summarize-news": [
+    {
+      "component": "t5",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "finetuned",
+      "category": "F"
+    },
+    {
+      "component": "summarize",
+      "category": "T"
+    },
+    {
+      "component": "news",
+      "category": "D"
+    }
+  ],
+  "bartowski/Llama-3.3-70B-Instruct-ablated-GGUF": [
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3.3",
+      "category": "V"
+    },
+    {
+      "component": "70B",
+      "category": "S"
+    },
+    {
+      "component": "Instruct",
+      "category": "F"
+    },
+    {
+      "component": "ablated",
+      "category": "R"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "facebook/deit-base-patch16-224": [
+    {
+      "component": "deit",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "patch16",
+      "category": "C"
+    },
+    {
+      "component": "224",
+      "category": "C"
+    }
+  ],
+  "qanastek/51-languages-classifier": [
+    {
+      "component": "51-languages",
+      "category": "C"
+    },
+    {
+      "component": "classifier",
+      "category": "T"
+    }
+  ],
+  "microsoft/deberta-xlarge-mnli": [
+    {
+      "component": "deberta",
+      "category": "A"
+    },
+    {
+      "component": "xlarge",
+      "category": "S"
+    },
+    {
+      "component": "mnli",
+      "category": "D"
+    }
+  ],
+  "wisenut-nlp-team/Wisedom-8B": [
+    {
+      "component": "Wisedom",
+      "category": "A"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    }
+  ],
+  "bartowski/aya-23-8B-GGUF": [
+    {
+      "component": "aya",
+      "category": "A"
+    },
+    {
+      "component": "23",
+      "category": "V"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "busecarik/bert-loodos-sunlp-ner-turkish": [
+    {
+      "component": "bert",
+      "category": "A"
+    },
+    {
+      "component": "loodos",
+      "category": "O"
+    },
+    {
+      "component": "sunlp",
+      "category": "O"
+    },
+    {
+      "component": "ner",
+      "category": "T"
+    },
+    {
+      "component": "turkish",
+      "category": "L"
+    }
+  ],
+  "facebook/roberta-hate-speech-dynabench-r4-target": [
+    {
+      "component": "roberta",
+      "category": "A"
+    },
+    {
+      "component": "hate-speech",
+      "category": "T"
+    },
+    {
+      "component": "dynabench",
+      "category": "D"
+    },
+    {
+      "component": "r4",
+      "category": "V"
+    },
+    {
+      "component": "target",
+      "category": "O"
+    }
+  ],
+  "bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF": [
+    {
+      "component": "Captain-Eris",
+      "category": "O"
+    },
+    {
+      "component": "Twighlight",
+      "category": "O"
+    },
+    {
+      "component": "V0.420",
+      "category": "V"
+    },
+    {
+      "component": "12B",
+      "category": "S"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "Q-bert/Zeus-13B-v1-arithmetic": [
+    {
+      "component": "Zeus",
+      "category": "A"
+    },
+    {
+      "component": "13B",
+      "category": "S"
+    },
+    {
+      "component": "v1",
+      "category": "V"
+    },
+    {
+      "component": "arithmetic",
+      "category": "T"
+    }
+  ],
+  "timm/mobilenetv4_conv_large.e600_r384_in1k": [
+    {
+      "component": "mobilenetv4",
+      "category": "A"
+    },
+    {
+      "component": "conv",
+      "category": "O"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    },
+    {
+      "component": "e600",
+      "category": "O"
+    },
+    {
+      "component": "r384",
+      "category": "C"
+    },
+    {
+      "component": "in1k",
+      "category": "D"
+    }
+  ],
+  "unsloth/Qwen2.5-0.5B-bnb-4bit": [
+    {
+      "component": "Qwen2.5",
+      "category": "A"
+    },
+    {
+      "component": "0.5B",
+      "category": "S"
+    },
+    {
+      "component": "bnb",
+      "category": "O"
+    },
+    {
+      "component": "4bit",
+      "category": "O"
+    }
+  ],
+  "mradermacher/Breeze-7B-FC-v1_0-i1-GGUF": [
+    {
+      "component": "Breeze",
+      "category": "A"
+    },
+    {
+      "component": "7B",
+      "category": "S"
+    },
+    {
+      "component": "FC",
+      "category": "O"
+    },
+    {
+      "component": "v1_0",
+      "category": "V"
+    },
+    {
+      "component": "i1",
+      "category": "V"
+    },
+    {
+      "component": "GGUF",
+      "category": "W"
+    }
+  ],
+  "apkonsta/table-transformer-detection-ifrs": [
+    {
+      "component": "table-transformer",
+      "category": "A"
+    },
+    {
+      "component": "detection",
+      "category": "T"
+    },
+    {
+      "component": "ifrs",
+      "category": "D"
+    }
+  ],
+  "yehiaserag/anime-pencil-diffusion": [
+    {
+      "component": "anime-pencil",
+      "category": "O"
+    },
+    {
+      "component": "diffusion",
+      "category": "T"
+    }
+  ],
+  "madebyollin/sdxl-vae-fp16-fix": [
+    {
+      "component": "sdxl",
+      "category": "A"
+    },
+    {
+      "component": "vae",
+      "category": "A"
+    },
+    {
+      "component": "fp16",
+      "category": "C"
+    },
+    {
+      "component": "fix",
+      "category": "O"
+    }
+  ],
+  "jxm/gtr__nq__32__correct": [
+    {
+      "component": "gtr",
+      "category": "A"
+    },
+    {
+      "component": "nq",
+      "category": "D"
+    },
+    {
+      "component": "32",
+      "category": "C"
+    },
+    {
+      "component": "correct",
+      "category": "O"
+    }
+  ],
+  "VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis": [
+    {
+      "component": "SaBERT",
+      "category": "A"
+    },
+    {
+      "component": "Spanish",
+      "category": "L"
+    },
+    {
+      "component": "Sentiment-Analysis",
+      "category": "T"
+    }
+  ],
+  "ByteDance/Sa2VA-8B": [
+    {
+      "component": "Sa2VA",
+      "category": "A"
+    },
+    {
+      "component": "8B",
+      "category": "S"
+    }
   ]
 }

@@ -244,3 +244,194 @@ savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-case
 savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,cased,C,Dataset characteristic
 Lykon/AAM_XL_AnimeMix,Lykon,AAM_XL_AnimeMix,AAM_XL,A,Architecture
 Lykon/AAM_XL_AnimeMix,Lykon,AAM_XL_AnimeMix,AnimeMix,O,Other
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,Meta,O,Other
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,Llama,A,Architecture
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,3,V,Model version
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,120B,S,Model size
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,Instruct,F,Reuse method
+lmstudio-community/Meta-Llama-3-120B-Instruct-GGUF,lmstudio-community,Meta-Llama-3-120B-Instruct-GGUF,GGUF,W,Framework/Format
+timm/tf_efficientnetv2_b0.in1k,timm,tf_efficientnetv2_b0.in1k,tf,W,Framework/Format
+timm/tf_efficientnetv2_b0.in1k,timm,tf_efficientnetv2_b0.in1k,efficientnetv2,A,Architecture
+timm/tf_efficientnetv2_b0.in1k,timm,tf_efficientnetv2_b0.in1k,b0,S,Model size
+timm/tf_efficientnetv2_b0.in1k,timm,tf_efficientnetv2_b0.in1k,in1k,D,Dataset
+quantumaikr/KoreanLM-hf,quantumaikr,KoreanLM-hf,Korean,L,Language
+quantumaikr/KoreanLM-hf,quantumaikr,KoreanLM-hf,LM,A,Architecture
+quantumaikr/KoreanLM-hf,quantumaikr,KoreanLM-hf,hf,W,Framework/Format
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lumimaid,O,Other
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,v0.2,V,Model version
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,12B,S,Model size
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,GGUF,W,Framework/Format
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,IQ,O,Other
+Lewdiculous/Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Lewdiculous,Lumimaid-v0.2-12B-GGUF-IQ-Imatrix,Imatrix,O,Other
+facebook/rag-token-nq,facebook,rag-token-nq,rag,A,Architecture
+facebook/rag-token-nq,facebook,rag-token-nq,token,O,Other
+facebook/rag-token-nq,facebook,rag-token-nq,nq,D,Dataset
+cahya/t5-base-indonesian-summarization-cased,cahya,t5-base-indonesian-summarization-cased,t5,A,Architecture
+cahya/t5-base-indonesian-summarization-cased,cahya,t5-base-indonesian-summarization-cased,base,S,Model size
+cahya/t5-base-indonesian-summarization-cased,cahya,t5-base-indonesian-summarization-cased,indonesian,L,Language
+cahya/t5-base-indonesian-summarization-cased,cahya,t5-base-indonesian-summarization-cased,summarization,T,Task or Application Goal
+cahya/t5-base-indonesian-summarization-cased,cahya,t5-base-indonesian-summarization-cased,cased,C,Dataset characteristic
+cis-lmu/glotlid,cis-lmu,glotlid,glotlid,O,Other
+facebook/seamless-m4t-v2-large,facebook,seamless-m4t-v2-large,seamless-m4t,A,Architecture
+facebook/seamless-m4t-v2-large,facebook,seamless-m4t-v2-large,v2,V,Model version
+facebook/seamless-m4t-v2-large,facebook,seamless-m4t-v2-large,large,S,Model size
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,KingNish,O,Other
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,Reasoning,T,Task or Application Goal
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,Llama,A,Architecture
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,3b,S,Model size
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,v0.1,V,Model version
+DevQuasar/KingNish.Reasoning-Llama-3b-v0.1-GGUF,DevQuasar,KingNish.Reasoning-Llama-3b-v0.1-GGUF,GGUF,W,Framework/Format
+FelixChao/Voldemort-10B,FelixChao,Voldemort-10B,Voldemort,O,Other
+FelixChao/Voldemort-10B,FelixChao,Voldemort-10B,10B,S,Model size
+digiplay/Burger_Mix_semiR2Lite,digiplay,Burger_Mix_semiR2Lite,Burger,O,Other
+digiplay/Burger_Mix_semiR2Lite,digiplay,Burger_Mix_semiR2Lite,Mix,O,Other
+digiplay/Burger_Mix_semiR2Lite,digiplay,Burger_Mix_semiR2Lite,semiR2Lite,O,Other
+Kquant03/Raiden-16x3.43B,Kquant03,Raiden-16x3.43B,Raiden,O,Other
+Kquant03/Raiden-16x3.43B,Kquant03,Raiden-16x3.43B,16x3.43B,O,Other
+lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer,lorahub,flan_t5_large-adversarial_qa_droberta_question_context_answer,flan_t5,A,Architecture
+lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer,lorahub,flan_t5_large-adversarial_qa_droberta_question_context_answer,large,S,Model size
+lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer,lorahub,flan_t5_large-adversarial_qa_droberta_question_context_answer,adversarial_qa,D,Dataset
+lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer,lorahub,flan_t5_large-adversarial_qa_droberta_question_context_answer,droberta,A,Architecture
+lorahub/flan_t5_large-adversarial_qa_droberta_question_context_answer,lorahub,flan_t5_large-adversarial_qa_droberta_question_context_answer,question_context_answer,T,Task or Application Goal
+jinaai/jina-embeddings-v2-base-zh,jinaai,jina-embeddings-v2-base-zh,jina-embeddings,A,Architecture
+jinaai/jina-embeddings-v2-base-zh,jinaai,jina-embeddings-v2-base-zh,v2,V,Model version
+jinaai/jina-embeddings-v2-base-zh,jinaai,jina-embeddings-v2-base-zh,base,S,Model size
+jinaai/jina-embeddings-v2-base-zh,jinaai,jina-embeddings-v2-base-zh,zh,L,Language
+ajibawa-2023/SlimOrca-13B,ajibawa-2023,SlimOrca-13B,SlimOrca,A,Architecture
+ajibawa-2023/SlimOrca-13B,ajibawa-2023,SlimOrca-13B,13B,S,Model size
+Magpie-Align/MagpieLM-8B-SFT-v0.1,Magpie-Align,MagpieLM-8B-SFT-v0.1,MagpieLM,A,Architecture
+Magpie-Align/MagpieLM-8B-SFT-v0.1,Magpie-Align,MagpieLM-8B-SFT-v0.1,8B,S,Model size
+Magpie-Align/MagpieLM-8B-SFT-v0.1,Magpie-Align,MagpieLM-8B-SFT-v0.1,SFT,F,Reuse method
+Magpie-Align/MagpieLM-8B-SFT-v0.1,Magpie-Align,MagpieLM-8B-SFT-v0.1,v0.1,V,Model version
+Edentns/DataVortexS-10.7B-dpo-v1.9,Edentns,DataVortexS-10.7B-dpo-v1.9,DataVortexS,A,Architecture
+Edentns/DataVortexS-10.7B-dpo-v1.9,Edentns,DataVortexS-10.7B-dpo-v1.9,10.7B,S,Model size
+Edentns/DataVortexS-10.7B-dpo-v1.9,Edentns,DataVortexS-10.7B-dpo-v1.9,dpo,F,Reuse method
+Edentns/DataVortexS-10.7B-dpo-v1.9,Edentns,DataVortexS-10.7B-dpo-v1.9,v1.9,V,Model version
+uni-tianyan/Uni-TianYan,uni-tianyan,Uni-TianYan,Uni,O,Other
+uni-tianyan/Uni-TianYan,uni-tianyan,Uni-TianYan,TianYan,O,Other
+mradermacher/Wingless_Imp_8B-i1-GGUF,mradermacher,Wingless_Imp_8B-i1-GGUF,Wingless_Imp,A,Architecture
+mradermacher/Wingless_Imp_8B-i1-GGUF,mradermacher,Wingless_Imp_8B-i1-GGUF,8B,S,Model size
+mradermacher/Wingless_Imp_8B-i1-GGUF,mradermacher,Wingless_Imp_8B-i1-GGUF,i1,V,Model version
+mradermacher/Wingless_Imp_8B-i1-GGUF,mradermacher,Wingless_Imp_8B-i1-GGUF,GGUF,W,Framework/Format
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,DeBERTa,A,Architecture
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,v3,V,Model version
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,base,S,Model size
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,mnli,D,Dataset
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,fever,D,Dataset
+MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli,MoritzLaurer,DeBERTa-v3-base-mnli-fever-anli,anli,D,Dataset
+e-palmisano/Qwen2-0.5B-ITA-Instruct,e-palmisano,Qwen2-0.5B-ITA-Instruct,Qwen2,A,Architecture
+e-palmisano/Qwen2-0.5B-ITA-Instruct,e-palmisano,Qwen2-0.5B-ITA-Instruct,0.5B,S,Model size
+e-palmisano/Qwen2-0.5B-ITA-Instruct,e-palmisano,Qwen2-0.5B-ITA-Instruct,ITA,L,Language
+e-palmisano/Qwen2-0.5B-ITA-Instruct,e-palmisano,Qwen2-0.5B-ITA-Instruct,Instruct,F,Reuse method
+ChrisWilson011016/5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6_vgg,ChrisWilson011016,5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6_vgg,5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6,O,Other
+ChrisWilson011016/5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6_vgg,ChrisWilson011016,5GWrAadRN9JMyj5GZaM2naadVacRfXxNNgEhPQBn5nvT8Vd6_vgg,vgg,A,Architecture
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,Meta,O,Other
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,Llama,A,Architecture
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,3.1,V,Model version
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,8B,S,Model size
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,Instruct,F,Reuse method
+MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF,MaziyarPanahi,Meta-Llama-3.1-8B-Instruct-GGUF,GGUF,W,Framework/Format
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,Phi,A,Architecture
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,3.1,V,Model version
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,mini,S,Model size
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,128k,C,Dataset characteristic
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,instruct,F,Reuse method
+GPT4All-Community/Phi-3.1-mini-128k-instruct-GGUF,GPT4All-Community,Phi-3.1-mini-128k-instruct-GGUF,GGUF,W,Framework/Format
+FreedomIntelligence/HuatuoGPT-Vision-34B,FreedomIntelligence,HuatuoGPT-Vision-34B,HuatuoGPT,A,Architecture
+FreedomIntelligence/HuatuoGPT-Vision-34B,FreedomIntelligence,HuatuoGPT-Vision-34B,Vision,T,Task or Application Goal
+FreedomIntelligence/HuatuoGPT-Vision-34B,FreedomIntelligence,HuatuoGPT-Vision-34B,34B,S,Model size
+RekaAI/reka-flash-3,RekaAI,reka-flash-3,reka-flash,A,Architecture
+RekaAI/reka-flash-3,RekaAI,reka-flash-3,3,V,Model version
+DTAI-KULeuven/robbert-v2-dutch-sentiment,DTAI-KULeuven,robbert-v2-dutch-sentiment,robbert,A,Architecture
+DTAI-KULeuven/robbert-v2-dutch-sentiment,DTAI-KULeuven,robbert-v2-dutch-sentiment,v2,V,Model version
+DTAI-KULeuven/robbert-v2-dutch-sentiment,DTAI-KULeuven,robbert-v2-dutch-sentiment,dutch,L,Language
+DTAI-KULeuven/robbert-v2-dutch-sentiment,DTAI-KULeuven,robbert-v2-dutch-sentiment,sentiment,T,Task or Application Goal
+maddes8cht/tiiuae-falcon-40b-instruct-gguf,maddes8cht,tiiuae-falcon-40b-instruct-gguf,tiiuae,O,Other
+maddes8cht/tiiuae-falcon-40b-instruct-gguf,maddes8cht,tiiuae-falcon-40b-instruct-gguf,falcon,A,Architecture
+maddes8cht/tiiuae-falcon-40b-instruct-gguf,maddes8cht,tiiuae-falcon-40b-instruct-gguf,40b,S,Model size
+maddes8cht/tiiuae-falcon-40b-instruct-gguf,maddes8cht,tiiuae-falcon-40b-instruct-gguf,instruct,F,Reuse method
+maddes8cht/tiiuae-falcon-40b-instruct-gguf,maddes8cht,tiiuae-falcon-40b-instruct-gguf,gguf,W,Framework/Format
+timm/convnextv2_base.fcmae_ft_in22k_in1k,timm,convnextv2_base.fcmae_ft_in22k_in1k,convnextv2,A,Architecture
+timm/convnextv2_base.fcmae_ft_in22k_in1k,timm,convnextv2_base.fcmae_ft_in22k_in1k,base,S,Model size
+timm/convnextv2_base.fcmae_ft_in22k_in1k,timm,convnextv2_base.fcmae_ft_in22k_in1k,fcmae_ft,R,Training process
+timm/convnextv2_base.fcmae_ft_in22k_in1k,timm,convnextv2_base.fcmae_ft_in22k_in1k,in22k,D,Dataset
+timm/convnextv2_base.fcmae_ft_in22k_in1k,timm,convnextv2_base.fcmae_ft_in22k_in1k,in1k,D,Dataset
+mrm8488/t5-base-finetuned-summarize-news,mrm8488,t5-base-finetuned-summarize-news,t5,A,Architecture
+mrm8488/t5-base-finetuned-summarize-news,mrm8488,t5-base-finetuned-summarize-news,base,S,Model size
+mrm8488/t5-base-finetuned-summarize-news,mrm8488,t5-base-finetuned-summarize-news,finetuned,F,Reuse method
+mrm8488/t5-base-finetuned-summarize-news,mrm8488,t5-base-finetuned-summarize-news,summarize,T,Task or Application Goal
+mrm8488/t5-base-finetuned-summarize-news,mrm8488,t5-base-finetuned-summarize-news,news,D,Dataset
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,Llama,A,Architecture
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,3.3,V,Model version
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,70B,S,Model size
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,Instruct,F,Reuse method
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,ablated,R,Training process
+bartowski/Llama-3.3-70B-Instruct-ablated-GGUF,bartowski,Llama-3.3-70B-Instruct-ablated-GGUF,GGUF,W,Framework/Format
+facebook/deit-base-patch16-224,facebook,deit-base-patch16-224,deit,A,Architecture
+facebook/deit-base-patch16-224,facebook,deit-base-patch16-224,base,S,Model size
+facebook/deit-base-patch16-224,facebook,deit-base-patch16-224,patch16,C,Dataset characteristic
+facebook/deit-base-patch16-224,facebook,deit-base-patch16-224,224,C,Dataset characteristic
+qanastek/51-languages-classifier,qanastek,51-languages-classifier,51-languages,C,Dataset characteristic
+qanastek/51-languages-classifier,qanastek,51-languages-classifier,classifier,T,Task or Application Goal
+microsoft/deberta-xlarge-mnli,microsoft,deberta-xlarge-mnli,deberta,A,Architecture
+microsoft/deberta-xlarge-mnli,microsoft,deberta-xlarge-mnli,xlarge,S,Model size
+microsoft/deberta-xlarge-mnli,microsoft,deberta-xlarge-mnli,mnli,D,Dataset
+wisenut-nlp-team/Wisedom-8B,wisenut-nlp-team,Wisedom-8B,Wisedom,A,Architecture
+wisenut-nlp-team/Wisedom-8B,wisenut-nlp-team,Wisedom-8B,8B,S,Model size
+bartowski/aya-23-8B-GGUF,bartowski,aya-23-8B-GGUF,aya,A,Architecture
+bartowski/aya-23-8B-GGUF,bartowski,aya-23-8B-GGUF,23,V,Model version
+bartowski/aya-23-8B-GGUF,bartowski,aya-23-8B-GGUF,8B,S,Model size
+bartowski/aya-23-8B-GGUF,bartowski,aya-23-8B-GGUF,GGUF,W,Framework/Format
+busecarik/bert-loodos-sunlp-ner-turkish,busecarik,bert-loodos-sunlp-ner-turkish,bert,A,Architecture
+busecarik/bert-loodos-sunlp-ner-turkish,busecarik,bert-loodos-sunlp-ner-turkish,loodos,O,Other
+busecarik/bert-loodos-sunlp-ner-turkish,busecarik,bert-loodos-sunlp-ner-turkish,sunlp,O,Other
+busecarik/bert-loodos-sunlp-ner-turkish,busecarik,bert-loodos-sunlp-ner-turkish,ner,T,Task or Application Goal
+busecarik/bert-loodos-sunlp-ner-turkish,busecarik,bert-loodos-sunlp-ner-turkish,turkish,L,Language
+facebook/roberta-hate-speech-dynabench-r4-target,facebook,roberta-hate-speech-dynabench-r4-target,roberta,A,Architecture
+facebook/roberta-hate-speech-dynabench-r4-target,facebook,roberta-hate-speech-dynabench-r4-target,hate-speech,T,Task or Application Goal
+facebook/roberta-hate-speech-dynabench-r4-target,facebook,roberta-hate-speech-dynabench-r4-target,dynabench,D,Dataset
+facebook/roberta-hate-speech-dynabench-r4-target,facebook,roberta-hate-speech-dynabench-r4-target,r4,V,Model version
+facebook/roberta-hate-speech-dynabench-r4-target,facebook,roberta-hate-speech-dynabench-r4-target,target,O,Other
+bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF,bartowski,Captain-Eris_Twighlight-V0.420-12B-GGUF,Captain-Eris,O,Other
+bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF,bartowski,Captain-Eris_Twighlight-V0.420-12B-GGUF,Twighlight,O,Other
+bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF,bartowski,Captain-Eris_Twighlight-V0.420-12B-GGUF,V0.420,V,Model version
+bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF,bartowski,Captain-Eris_Twighlight-V0.420-12B-GGUF,12B,S,Model size
+bartowski/Captain-Eris_Twighlight-V0.420-12B-GGUF,bartowski,Captain-Eris_Twighlight-V0.420-12B-GGUF,GGUF,W,Framework/Format
+Q-bert/Zeus-13B-v1-arithmetic,Q-bert,Zeus-13B-v1-arithmetic,Zeus,A,Architecture
+Q-bert/Zeus-13B-v1-arithmetic,Q-bert,Zeus-13B-v1-arithmetic,13B,S,Model size
+Q-bert/Zeus-13B-v1-arithmetic,Q-bert,Zeus-13B-v1-arithmetic,v1,V,Model version
+Q-bert/Zeus-13B-v1-arithmetic,Q-bert,Zeus-13B-v1-arithmetic,arithmetic,T,Task or Application Goal
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,mobilenetv4,A,Architecture
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,conv,O,Other
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,large,S,Model size
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,e600,O,Other
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,r384,C,Dataset characteristic
+timm/mobilenetv4_conv_large.e600_r384_in1k,timm,mobilenetv4_conv_large.e600_r384_in1k,in1k,D,Dataset
+unsloth/Qwen2.5-0.5B-bnb-4bit,unsloth,Qwen2.5-0.5B-bnb-4bit,Qwen2.5,A,Architecture
+unsloth/Qwen2.5-0.5B-bnb-4bit,unsloth,Qwen2.5-0.5B-bnb-4bit,0.5B,S,Model size
+unsloth/Qwen2.5-0.5B-bnb-4bit,unsloth,Qwen2.5-0.5B-bnb-4bit,bnb,O,Other
+unsloth/Qwen2.5-0.5B-bnb-4bit,unsloth,Qwen2.5-0.5B-bnb-4bit,4bit,O,Other
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,Breeze,A,Architecture
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,7B,S,Model size
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,FC,O,Other
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,v1_0,V,Model version
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,i1,V,Model version
+mradermacher/Breeze-7B-FC-v1_0-i1-GGUF,mradermacher,Breeze-7B-FC-v1_0-i1-GGUF,GGUF,W,Framework/Format
+apkonsta/table-transformer-detection-ifrs,apkonsta,table-transformer-detection-ifrs,table-transformer,A,Architecture
+apkonsta/table-transformer-detection-ifrs,apkonsta,table-transformer-detection-ifrs,detection,T,Task or Application Goal
+apkonsta/table-transformer-detection-ifrs,apkonsta,table-transformer-detection-ifrs,ifrs,D,Dataset
+yehiaserag/anime-pencil-diffusion,yehiaserag,anime-pencil-diffusion,anime-pencil,O,Other
+yehiaserag/anime-pencil-diffusion,yehiaserag,anime-pencil-diffusion,diffusion,T,Task or Application Goal
+madebyollin/sdxl-vae-fp16-fix,madebyollin,sdxl-vae-fp16-fix,sdxl,A,Architecture
+madebyollin/sdxl-vae-fp16-fix,madebyollin,sdxl-vae-fp16-fix,vae,A,Architecture
+madebyollin/sdxl-vae-fp16-fix,madebyollin,sdxl-vae-fp16-fix,fp16,C,Dataset characteristic
+madebyollin/sdxl-vae-fp16-fix,madebyollin,sdxl-vae-fp16-fix,fix,O,Other
+jxm/gtr__nq__32__correct,jxm,gtr__nq__32__correct,gtr,A,Architecture
+jxm/gtr__nq__32__correct,jxm,gtr__nq__32__correct,nq,D,Dataset
+jxm/gtr__nq__32__correct,jxm,gtr__nq__32__correct,32,C,Dataset characteristic
+jxm/gtr__nq__32__correct,jxm,gtr__nq__32__correct,correct,O,Other
+VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis,VerificadoProfesional,SaBERT-Spanish-Sentiment-Analysis,SaBERT,A,Architecture
+VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis,VerificadoProfesional,SaBERT-Spanish-Sentiment-Analysis,Spanish,L,Language
+VerificadoProfesional/SaBERT-Spanish-Sentiment-Analysis,VerificadoProfesional,SaBERT-Spanish-Sentiment-Analysis,Sentiment-Analysis,T,Task or Application Goal
+ByteDance/Sa2VA-8B,ByteDance,Sa2VA-8B,Sa2VA,A,Architecture
+ByteDance/Sa2VA-8B,ByteDance,Sa2VA-8B,8B,S,Model size

@@ -18,6 +18,8 @@ You are a neural network model name analyzer. Parse each given model name into t
 - Number of layers [N]: e.g, L-12, L-24
 - Number of heads [H]: e.g, H-12, H-256
 - Number of parameters [P]: e.g, 100M, 8B
+- Framework/Format [W]: e.g, tf, pytorch, jax, gguf, ggml, safetensors
+- Company/Organization [M]: e.g, Meta, Google, OpenAI, Microsoft, Anthropic, Mistral
 - Other [O]: If a portion of the model name cannot be classified into the above categories, classify it as other
 
 IMPORTANT: Pay careful attention to semantic units. Many model names use hyphens, underscores or other delimiters WITHIN a single component. For example:
@@ -60,6 +62,8 @@ For input:
 albert-base-v2
 opus-mt-it-en
 llama-2-7b-roman-empire-qa-27k
+c4ai-command-r-plus-gguf
+Meta-Llama-3-8B-Instruct
 
 Your output should be:
 {{
@@ -128,6 +132,56 @@ Your output should be:
         {{
           "component": "27k",
           "category": "C"
+        }}
+      ]
+    }},
+    {{
+      "name": "c4ai-command-r-plus-gguf",
+      "componentMapping": [
+        {{
+          "component": "c4ai",
+          "category": "O"
+        }},
+        {{
+          "component": "command",
+          "category": "A"
+        }},
+        {{
+          "component": "r",
+          "category": "V"
+        }},
+        {{
+          "component": "plus",
+          "category": "V"
+        }},
+        {{
+          "component": "gguf",
+          "category": "W"
+        }}
+      ]
+    }},
+    {{
+      "name": "Meta-Llama-3-8B-Instruct",
+      "componentMapping": [
+        {{
+          "component": "Meta",
+          "category": "M"
+        }},
+        {{
+          "component": "Llama",
+          "category": "A"
+        }},
+        {{
+          "component": "3",
+          "category": "V"
+        }},
+        {{
+          "component": "8B",
+          "category": "S"
+        }},
+        {{
+          "component": "Instruct",
+          "category": "T"
         }}
       ]
     }}
