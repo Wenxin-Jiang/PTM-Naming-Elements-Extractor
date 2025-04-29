@@ -1,0 +1,1102 @@
+{
+  "mmnga/c4ai-command-r-plus-gguf": [
+    {
+      "component": "c4ai",
+      "category": "O"
+    },
+    {
+      "component": "command",
+      "category": "A"
+    },
+    {
+      "component": "r",
+      "category": "O"
+    },
+    {
+      "component": "plus",
+      "category": "S"
+    },
+    {
+      "component": "gguf",
+      "category": "O"
+    }
+  ],
+  "lorahub/flan_t5_large-amazon_polarity_user_satisfied": [
+    {
+      "component": "flan",
+      "category": "R"
+    },
+    {
+      "component": "t5",
+      "category": "A"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    },
+    {
+      "component": "amazon_polarity",
+      "category": "D"
+    },
+    {
+      "component": "user_satisfied",
+      "category": "C"
+    }
+  ],
+  "beademiguelperez/sentence-transformers-multilingual-e5-small": [
+    {
+      "component": "sentence-transformers",
+      "category": "A"
+    },
+    {
+      "component": "multilingual",
+      "category": "L"
+    },
+    {
+      "component": "e5",
+      "category": "V"
+    },
+    {
+      "component": "small",
+      "category": "S"
+    }
+  ],
+  "fffiloni/cute-comic-800": [
+    {
+      "component": "cute",
+      "category": "O"
+    },
+    {
+      "component": "comic",
+      "category": "O"
+    },
+    {
+      "component": "800",
+      "category": "O"
+    }
+  ],
+  "mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF": [
+    {
+      "component": "naps",
+      "category": "O"
+    },
+    {
+      "component": "llama",
+      "category": "A"
+    },
+    {
+      "component": "3_1",
+      "category": "V"
+    },
+    {
+      "component": "8b",
+      "category": "P"
+    },
+    {
+      "component": "instruct",
+      "category": "F"
+    },
+    {
+      "component": "v01",
+      "category": "V"
+    },
+    {
+      "component": "i1",
+      "category": "V"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "facebook/bart-large": [
+    {
+      "component": "bart",
+      "category": "A"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    }
+  ],
+  "mncai/agiin-11.1B-v0.0": [
+    {
+      "component": "agiin",
+      "category": "A"
+    },
+    {
+      "component": "11.1B",
+      "category": "P"
+    },
+    {
+      "component": "v0.0",
+      "category": "V"
+    }
+  ],
+  "SzegedAI/babylm24_MLSM_strict": [
+    {
+      "component": "babylm",
+      "category": "A"
+    },
+    {
+      "component": "24",
+      "category": "V"
+    },
+    {
+      "component": "MLSM",
+      "category": "O"
+    },
+    {
+      "component": "strict",
+      "category": "C"
+    }
+  ],
+  "timm/convnextv2_tiny.fcmae_ft_in22k_in1k": [
+    {
+      "component": "convnextv2",
+      "category": "A"
+    },
+    {
+      "component": "tiny",
+      "category": "S"
+    },
+    {
+      "component": "fcmae_ft",
+      "category": "F"
+    },
+    {
+      "component": "in22k",
+      "category": "D"
+    },
+    {
+      "component": "in1k",
+      "category": "D"
+    }
+  ],
+  "gaodrew/llama-2-7b-roman-empire-qa-27k": [
+    {
+      "component": "llama",
+      "category": "A"
+    },
+    {
+      "component": "2",
+      "category": "V"
+    },
+    {
+      "component": "7b",
+      "category": "P"
+    },
+    {
+      "component": "roman",
+      "category": "D"
+    },
+    {
+      "component": "empire",
+      "category": "D"
+    },
+    {
+      "component": "qa",
+      "category": "T"
+    },
+    {
+      "component": "27k",
+      "category": "C"
+    }
+  ],
+  "ClosedCharacter/Peach-2.0-9B-8k-Roleplay": [
+    {
+      "component": "Peach",
+      "category": "A"
+    },
+    {
+      "component": "2.0",
+      "category": "V"
+    },
+    {
+      "component": "9B",
+      "category": "P"
+    },
+    {
+      "component": "8k",
+      "category": "C"
+    },
+    {
+      "component": "Roleplay",
+      "category": "T"
+    }
+  ],
+  "v000000/Qwen2.5-Lumen-14B": [
+    {
+      "component": "Qwen",
+      "category": "A"
+    },
+    {
+      "component": "2.5",
+      "category": "V"
+    },
+    {
+      "component": "Lumen",
+      "category": "O"
+    },
+    {
+      "component": "14B",
+      "category": "P"
+    }
+  ],
+  "01-ai/Yi-Coder-9B-Chat": [
+    {
+      "component": "Yi-Coder",
+      "category": "A"
+    },
+    {
+      "component": "9B",
+      "category": "P"
+    },
+    {
+      "component": "Chat",
+      "category": "T"
+    }
+  ],
+  "mradermacher/Draco-8x7B-GGUF": [
+    {
+      "component": "Draco",
+      "category": "A"
+    },
+    {
+      "component": "8x7B",
+      "category": "S"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "facebook/timesformer-hr-finetuned-ssv2": [
+    {
+      "component": "timesformer",
+      "category": "A"
+    },
+    {
+      "component": "hr",
+      "category": "C"
+    },
+    {
+      "component": "finetuned",
+      "category": "F"
+    },
+    {
+      "component": "ssv2",
+      "category": "D"
+    }
+  ],
+  "QuantFactory/Llama3.2-3B-Esper2-GGUF": [
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3.2",
+      "category": "V"
+    },
+    {
+      "component": "3B",
+      "category": "P"
+    },
+    {
+      "component": "Esper2",
+      "category": "O"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "timm/lcnet_050.ra2_in1k": [
+    {
+      "component": "lcnet",
+      "category": "A"
+    },
+    {
+      "component": "050",
+      "category": "V"
+    },
+    {
+      "component": "ra2",
+      "category": "V"
+    },
+    {
+      "component": "in1k",
+      "category": "D"
+    }
+  ],
+  "benxh/Qwen2.5-VL-7B-Instruct-GGUF": [
+    {
+      "component": "Qwen",
+      "category": "A"
+    },
+    {
+      "component": "2.5",
+      "category": "V"
+    },
+    {
+      "component": "VL",
+      "category": "T"
+    },
+    {
+      "component": "7B",
+      "category": "P"
+    },
+    {
+      "component": "Instruct",
+      "category": "T"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "holistic-ai/rejection_detection": [
+    {
+      "component": "rejection_detection",
+      "category": "T"
+    }
+  ],
+  "tiiuae/Falcon3-1B-Base": [
+    {
+      "component": "Falcon",
+      "category": "A"
+    },
+    {
+      "component": "3",
+      "category": "V"
+    },
+    {
+      "component": "1B",
+      "category": "P"
+    },
+    {
+      "component": "Base",
+      "category": "S"
+    }
+  ],
+  "umairrkhn/fine-tuned-nsfw-classification": [
+    {
+      "component": "fine-tuned",
+      "category": "F"
+    },
+    {
+      "component": "nsfw",
+      "category": "O"
+    },
+    {
+      "component": "classification",
+      "category": "T"
+    }
+  ],
+  "Mozilla/Mistral-7B-Instruct-v0.2-llamafile": [
+    {
+      "component": "Mistral",
+      "category": "A"
+    },
+    {
+      "component": "7B",
+      "category": "P"
+    },
+    {
+      "component": "Instruct",
+      "category": "T"
+    },
+    {
+      "component": "v0.2",
+      "category": "V"
+    },
+    {
+      "component": "llamafile",
+      "category": "O"
+    }
+  ],
+  "timm/fastvit_s12.apple_in1k": [
+    {
+      "component": "fastvit",
+      "category": "A"
+    },
+    {
+      "component": "s12",
+      "category": "S"
+    },
+    {
+      "component": "apple_in1k",
+      "category": "D"
+    }
+  ],
+  "Helsinki-NLP/opus-mt-es-it": [
+    {
+      "component": "opus",
+      "category": "A"
+    },
+    {
+      "component": "mt",
+      "category": "T"
+    },
+    {
+      "component": "es",
+      "category": "L"
+    },
+    {
+      "component": "it",
+      "category": "L"
+    }
+  ],
+  "E-MIMIC/inclusively-reformulation-it5": [
+    {
+      "component": "inclusively-reformulation",
+      "category": "O"
+    },
+    {
+      "component": "it5",
+      "category": "A"
+    }
+  ],
+  "Rookie/Llama-3-8B-Instruct-Chinese": [
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3",
+      "category": "V"
+    },
+    {
+      "component": "8B",
+      "category": "P"
+    },
+    {
+      "component": "Instruct",
+      "category": "T"
+    },
+    {
+      "component": "Chinese",
+      "category": "L"
+    }
+  ],
+  "misri/zavychromaxl_v90": [
+    {
+      "component": "zavychromaxl",
+      "category": "A"
+    },
+    {
+      "component": "v90",
+      "category": "V"
+    }
+  ],
+  "microsoft/xclip-base-patch32": [
+    {
+      "component": "xclip",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "patch32",
+      "category": "C"
+    }
+  ],
+  "mncai/mistral-7b-dpo-v5": [
+    {
+      "component": "mistral",
+      "category": "A"
+    },
+    {
+      "component": "7b",
+      "category": "P"
+    },
+    {
+      "component": "dpo",
+      "category": "R"
+    },
+    {
+      "component": "v5",
+      "category": "V"
+    }
+  ],
+  "Andron00e/YetAnother_Open-Llama-3B-LoRA": [
+    {
+      "component": "YetAnother_Open-Llama",
+      "category": "A"
+    },
+    {
+      "component": "3B",
+      "category": "P"
+    },
+    {
+      "component": "LoRA",
+      "category": "F"
+    }
+  ],
+  "DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF": [
+    {
+      "component": "L3",
+      "category": "A"
+    },
+    {
+      "component": "MOE",
+      "category": "A"
+    },
+    {
+      "component": "8X8B",
+      "category": "S"
+    },
+    {
+      "component": "Dark-Planet",
+      "category": "D"
+    },
+    {
+      "component": "8D",
+      "category": "C"
+    },
+    {
+      "component": "Mirrored-Chaos",
+      "category": "D"
+    },
+    {
+      "component": "47B",
+      "category": "P"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "facebook/esm1v_t33_650M_UR90S_1": [
+    {
+      "component": "esm1v",
+      "category": "A"
+    },
+    {
+      "component": "t33",
+      "category": "V"
+    },
+    {
+      "component": "650M",
+      "category": "P"
+    },
+    {
+      "component": "UR90S",
+      "category": "D"
+    },
+    {
+      "component": "1",
+      "category": "V"
+    }
+  ],
+  "alvdansen/vincentsketchmanga": [
+    {
+      "component": "vincentsketchmanga",
+      "category": "O"
+    }
+  ],
+  "ENERGY-DRINK-LOVE/rtzr_dpo-v4-hq": [
+    {
+      "component": "rtzr",
+      "category": "A"
+    },
+    {
+      "component": "dpo",
+      "category": "R"
+    },
+    {
+      "component": "v4",
+      "category": "V"
+    },
+    {
+      "component": "hq",
+      "category": "C"
+    }
+  ],
+  "lmstudio-community/granite-3.2-8b-instruct-GGUF": [
+    {
+      "component": "granite",
+      "category": "A"
+    },
+    {
+      "component": "3.2",
+      "category": "V"
+    },
+    {
+      "component": "8b",
+      "category": "P"
+    },
+    {
+      "component": "instruct",
+      "category": "T"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "dccuchile/bert-base-spanish-wwm-cased": [
+    {
+      "component": "bert",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "spanish",
+      "category": "L"
+    },
+    {
+      "component": "wwm",
+      "category": "C"
+    },
+    {
+      "component": "cased",
+      "category": "C"
+    }
+  ],
+  "katuni4ka/tiny-random-minicpm3": [
+    {
+      "component": "tiny",
+      "category": "S"
+    },
+    {
+      "component": "random",
+      "category": "O"
+    },
+    {
+      "component": "minicpm3",
+      "category": "A"
+    }
+  ],
+  "migtissera/Synthia-70B-v1.1": [
+    {
+      "component": "Synthia",
+      "category": "A"
+    },
+    {
+      "component": "70B",
+      "category": "P"
+    },
+    {
+      "component": "v1.1",
+      "category": "V"
+    }
+  ],
+  "Aeala/GPT4-x-AlpacaDente-30b": [
+    {
+      "component": "GPT4",
+      "category": "A"
+    },
+    {
+      "component": "x",
+      "category": "O"
+    },
+    {
+      "component": "AlpacaDente",
+      "category": "O"
+    },
+    {
+      "component": "30b",
+      "category": "P"
+    }
+  ],
+  "sapienzanlp/Minerva-7B-base-v1.0": [
+    {
+      "component": "Minerva",
+      "category": "A"
+    },
+    {
+      "component": "7B",
+      "category": "P"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "v1.0",
+      "category": "V"
+    }
+  ],
+  "mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf": [
+    {
+      "component": "DataPilot",
+      "category": "A"
+    },
+    {
+      "component": "ArrowPro",
+      "category": "O"
+    },
+    {
+      "component": "7B",
+      "category": "P"
+    },
+    {
+      "component": "KUJIRA",
+      "category": "O"
+    },
+    {
+      "component": "gguf",
+      "category": "O"
+    }
+  ],
+  "TheBloke/llama-2-70b-Guanaco-QLoRA-fp16": [
+    {
+      "component": "llama",
+      "category": "A"
+    },
+    {
+      "component": "2",
+      "category": "V"
+    },
+    {
+      "component": "70b",
+      "category": "P"
+    },
+    {
+      "component": "Guanaco",
+      "category": "O"
+    },
+    {
+      "component": "QLoRA",
+      "category": "F"
+    },
+    {
+      "component": "fp16",
+      "category": "C"
+    }
+  ],
+  "neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic": [
+    {
+      "component": "Llama",
+      "category": "A"
+    },
+    {
+      "component": "3.2",
+      "category": "V"
+    },
+    {
+      "component": "90B",
+      "category": "P"
+    },
+    {
+      "component": "Vision",
+      "category": "T"
+    },
+    {
+      "component": "Instruct",
+      "category": "T"
+    },
+    {
+      "component": "FP8",
+      "category": "C"
+    },
+    {
+      "component": "dynamic",
+      "category": "C"
+    }
+  ],
+  "google/flan-t5-small": [
+    {
+      "component": "flan-t5",
+      "category": "A"
+    },
+    {
+      "component": "small",
+      "category": "S"
+    }
+  ],
+  "lorahub/flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to": [
+    {
+      "component": "flan_t5",
+      "category": "A"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    },
+    {
+      "component": "dbpedia_14",
+      "category": "D"
+    },
+    {
+      "component": "given_a_list_of_category_what_does_the_title_belong_to",
+      "category": "T"
+    }
+  ],
+  "openart-custom/DucHaiten-AIart-SDXL_v3": [
+    {
+      "component": "DucHaiten",
+      "category": "A"
+    },
+    {
+      "component": "AIart",
+      "category": "T"
+    },
+    {
+      "component": "SDXL",
+      "category": "O"
+    },
+    {
+      "component": "v3",
+      "category": "V"
+    }
+  ],
+  "Helsinki-NLP/opus-tatoeba-en-tr": [
+    {
+      "component": "opus",
+      "category": "A"
+    },
+    {
+      "component": "tatoeba",
+      "category": "D"
+    },
+    {
+      "component": "en",
+      "category": "L"
+    },
+    {
+      "component": "tr",
+      "category": "L"
+    }
+  ],
+  "uukuguy/speechless-mistral-six-in-one-7b-orth-1.0": [
+    {
+      "component": "speechless-mistral",
+      "category": "A"
+    },
+    {
+      "component": "six-in-one",
+      "category": "O"
+    },
+    {
+      "component": "7b",
+      "category": "P"
+    },
+    {
+      "component": "orth",
+      "category": "O"
+    },
+    {
+      "component": "1.0",
+      "category": "V"
+    }
+  ],
+  "Rostlab/prot_t5_xl_bfd": [
+    {
+      "component": "prot_t5",
+      "category": "A"
+    },
+    {
+      "component": "xl",
+      "category": "S"
+    },
+    {
+      "component": "bfd",
+      "category": "D"
+    }
+  ],
+  "ibm-granite/granite-20b-code-instruct-8k": [
+    {
+      "component": "granite",
+      "category": "A"
+    },
+    {
+      "component": "20b",
+      "category": "P"
+    },
+    {
+      "component": "code",
+      "category": "T"
+    },
+    {
+      "component": "instruct",
+      "category": "T"
+    },
+    {
+      "component": "8k",
+      "category": "C"
+    }
+  ],
+  "KoichiYasuoka/roberta-large-english-upos": [
+    {
+      "component": "roberta",
+      "category": "A"
+    },
+    {
+      "component": "large",
+      "category": "S"
+    },
+    {
+      "component": "english",
+      "category": "L"
+    },
+    {
+      "component": "upos",
+      "category": "T"
+    }
+  ],
+  "bartowski/Qwen2.5-14B_Uncencored-GGUF": [
+    {
+      "component": "Qwen",
+      "category": "A"
+    },
+    {
+      "component": "2.5",
+      "category": "V"
+    },
+    {
+      "component": "14B",
+      "category": "P"
+    },
+    {
+      "component": "Uncencored",
+      "category": "C"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "autogluon/tabpfn-mix-1.0-regressor": [
+    {
+      "component": "tabpfn",
+      "category": "A"
+    },
+    {
+      "component": "mix",
+      "category": "O"
+    },
+    {
+      "component": "1.0",
+      "category": "V"
+    },
+    {
+      "component": "regressor",
+      "category": "T"
+    }
+  ],
+  "ogimgio/gpt-neo-125m-neurallinguisticpioneers": [
+    {
+      "component": "gpt-neo",
+      "category": "A"
+    },
+    {
+      "component": "125m",
+      "category": "P"
+    },
+    {
+      "component": "neurallinguisticpioneers",
+      "category": "O"
+    }
+  ],
+  "Niggendar/mfcgPaintjob_v20": [
+    {
+      "component": "mfcgPaintjob",
+      "category": "A"
+    },
+    {
+      "component": "v20",
+      "category": "V"
+    }
+  ],
+  "TheBloke/Mixtral-8x7B-v0.1-GGUF": [
+    {
+      "component": "Mixtral",
+      "category": "A"
+    },
+    {
+      "component": "8x7B",
+      "category": "S"
+    },
+    {
+      "component": "v0.1",
+      "category": "V"
+    },
+    {
+      "component": "GGUF",
+      "category": "O"
+    }
+  ],
+  "yeen214/llama2_7b_platypus_tuning": [
+    {
+      "component": "llama2",
+      "category": "A"
+    },
+    {
+      "component": "7b",
+      "category": "P"
+    },
+    {
+      "component": "platypus",
+      "category": "O"
+    },
+    {
+      "component": "tuning",
+      "category": "F"
+    }
+  ],
+  "yuzhang/llava-prumerge-vicuna-7b-v1.5-lora": [
+    {
+      "component": "llava",
+      "category": "A"
+    },
+    {
+      "component": "prumerge",
+      "category": "O"
+    },
+    {
+      "component": "vicuna",
+      "category": "O"
+    },
+    {
+      "component": "7b",
+      "category": "P"
+    },
+    {
+      "component": "v1.5",
+      "category": "V"
+    },
+    {
+      "component": "lora",
+      "category": "F"
+    }
+  ],
+  "savasy/bert-base-turkish-sentiment-cased": [
+    {
+      "component": "bert",
+      "category": "A"
+    },
+    {
+      "component": "base",
+      "category": "S"
+    },
+    {
+      "component": "turkish",
+      "category": "L"
+    },
+    {
+      "component": "sentiment",
+      "category": "T"
+    },
+    {
+      "component": "cased",
+      "category": "C"
+    }
+  ],
+  "Lykon/AAM_XL_AnimeMix": [
+    {
+      "component": "AAM_XL",
+      "category": "A"
+    },
+    {
+      "component": "AnimeMix",
+      "category": "O"
+    }
+  ]
+}

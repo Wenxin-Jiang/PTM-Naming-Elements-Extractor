@@ -1,0 +1,246 @@
+model_name,namespace,model_part,component,category,category_name
+mmnga/c4ai-command-r-plus-gguf,mmnga,c4ai-command-r-plus-gguf,c4ai,O,Other
+mmnga/c4ai-command-r-plus-gguf,mmnga,c4ai-command-r-plus-gguf,command,A,Architecture
+mmnga/c4ai-command-r-plus-gguf,mmnga,c4ai-command-r-plus-gguf,r,O,Other
+mmnga/c4ai-command-r-plus-gguf,mmnga,c4ai-command-r-plus-gguf,plus,S,Model size
+mmnga/c4ai-command-r-plus-gguf,mmnga,c4ai-command-r-plus-gguf,gguf,O,Other
+lorahub/flan_t5_large-amazon_polarity_user_satisfied,lorahub,flan_t5_large-amazon_polarity_user_satisfied,flan,R,Training process
+lorahub/flan_t5_large-amazon_polarity_user_satisfied,lorahub,flan_t5_large-amazon_polarity_user_satisfied,t5,A,Architecture
+lorahub/flan_t5_large-amazon_polarity_user_satisfied,lorahub,flan_t5_large-amazon_polarity_user_satisfied,large,S,Model size
+lorahub/flan_t5_large-amazon_polarity_user_satisfied,lorahub,flan_t5_large-amazon_polarity_user_satisfied,amazon_polarity,D,Dataset
+lorahub/flan_t5_large-amazon_polarity_user_satisfied,lorahub,flan_t5_large-amazon_polarity_user_satisfied,user_satisfied,C,Dataset characteristic
+beademiguelperez/sentence-transformers-multilingual-e5-small,beademiguelperez,sentence-transformers-multilingual-e5-small,sentence-transformers,A,Architecture
+beademiguelperez/sentence-transformers-multilingual-e5-small,beademiguelperez,sentence-transformers-multilingual-e5-small,multilingual,L,Language
+beademiguelperez/sentence-transformers-multilingual-e5-small,beademiguelperez,sentence-transformers-multilingual-e5-small,e5,V,Model version
+beademiguelperez/sentence-transformers-multilingual-e5-small,beademiguelperez,sentence-transformers-multilingual-e5-small,small,S,Model size
+fffiloni/cute-comic-800,fffiloni,cute-comic-800,cute,O,Other
+fffiloni/cute-comic-800,fffiloni,cute-comic-800,comic,O,Other
+fffiloni/cute-comic-800,fffiloni,cute-comic-800,800,O,Other
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,naps,O,Other
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,llama,A,Architecture
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,3_1,V,Model version
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,8b,P,Number of parameters
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,instruct,F,Reuse method
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,v01,V,Model version
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,i1,V,Model version
+mradermacher/naps-llama-3_1-8b-instruct-v01-i1-GGUF,mradermacher,naps-llama-3_1-8b-instruct-v01-i1-GGUF,GGUF,O,Other
+facebook/bart-large,facebook,bart-large,bart,A,Architecture
+facebook/bart-large,facebook,bart-large,large,S,Model size
+mncai/agiin-11.1B-v0.0,mncai,agiin-11.1B-v0.0,agiin,A,Architecture
+mncai/agiin-11.1B-v0.0,mncai,agiin-11.1B-v0.0,11.1B,P,Number of parameters
+mncai/agiin-11.1B-v0.0,mncai,agiin-11.1B-v0.0,v0.0,V,Model version
+SzegedAI/babylm24_MLSM_strict,SzegedAI,babylm24_MLSM_strict,babylm,A,Architecture
+SzegedAI/babylm24_MLSM_strict,SzegedAI,babylm24_MLSM_strict,24,V,Model version
+SzegedAI/babylm24_MLSM_strict,SzegedAI,babylm24_MLSM_strict,MLSM,O,Other
+SzegedAI/babylm24_MLSM_strict,SzegedAI,babylm24_MLSM_strict,strict,C,Dataset characteristic
+timm/convnextv2_tiny.fcmae_ft_in22k_in1k,timm,convnextv2_tiny.fcmae_ft_in22k_in1k,convnextv2,A,Architecture
+timm/convnextv2_tiny.fcmae_ft_in22k_in1k,timm,convnextv2_tiny.fcmae_ft_in22k_in1k,tiny,S,Model size
+timm/convnextv2_tiny.fcmae_ft_in22k_in1k,timm,convnextv2_tiny.fcmae_ft_in22k_in1k,fcmae_ft,F,Reuse method
+timm/convnextv2_tiny.fcmae_ft_in22k_in1k,timm,convnextv2_tiny.fcmae_ft_in22k_in1k,in22k,D,Dataset
+timm/convnextv2_tiny.fcmae_ft_in22k_in1k,timm,convnextv2_tiny.fcmae_ft_in22k_in1k,in1k,D,Dataset
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,llama,A,Architecture
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,2,V,Model version
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,7b,P,Number of parameters
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,roman,D,Dataset
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,empire,D,Dataset
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,qa,T,Task or Application Goal
+gaodrew/llama-2-7b-roman-empire-qa-27k,gaodrew,llama-2-7b-roman-empire-qa-27k,27k,C,Dataset characteristic
+ClosedCharacter/Peach-2.0-9B-8k-Roleplay,ClosedCharacter,Peach-2.0-9B-8k-Roleplay,Peach,A,Architecture
+ClosedCharacter/Peach-2.0-9B-8k-Roleplay,ClosedCharacter,Peach-2.0-9B-8k-Roleplay,2.0,V,Model version
+ClosedCharacter/Peach-2.0-9B-8k-Roleplay,ClosedCharacter,Peach-2.0-9B-8k-Roleplay,9B,P,Number of parameters
+ClosedCharacter/Peach-2.0-9B-8k-Roleplay,ClosedCharacter,Peach-2.0-9B-8k-Roleplay,8k,C,Dataset characteristic
+ClosedCharacter/Peach-2.0-9B-8k-Roleplay,ClosedCharacter,Peach-2.0-9B-8k-Roleplay,Roleplay,T,Task or Application Goal
+v000000/Qwen2.5-Lumen-14B,v000000,Qwen2.5-Lumen-14B,Qwen,A,Architecture
+v000000/Qwen2.5-Lumen-14B,v000000,Qwen2.5-Lumen-14B,2.5,V,Model version
+v000000/Qwen2.5-Lumen-14B,v000000,Qwen2.5-Lumen-14B,Lumen,O,Other
+v000000/Qwen2.5-Lumen-14B,v000000,Qwen2.5-Lumen-14B,14B,P,Number of parameters
+01-ai/Yi-Coder-9B-Chat,01-ai,Yi-Coder-9B-Chat,Yi-Coder,A,Architecture
+01-ai/Yi-Coder-9B-Chat,01-ai,Yi-Coder-9B-Chat,9B,P,Number of parameters
+01-ai/Yi-Coder-9B-Chat,01-ai,Yi-Coder-9B-Chat,Chat,T,Task or Application Goal
+mradermacher/Draco-8x7B-GGUF,mradermacher,Draco-8x7B-GGUF,Draco,A,Architecture
+mradermacher/Draco-8x7B-GGUF,mradermacher,Draco-8x7B-GGUF,8x7B,S,Model size
+mradermacher/Draco-8x7B-GGUF,mradermacher,Draco-8x7B-GGUF,GGUF,O,Other
+facebook/timesformer-hr-finetuned-ssv2,facebook,timesformer-hr-finetuned-ssv2,timesformer,A,Architecture
+facebook/timesformer-hr-finetuned-ssv2,facebook,timesformer-hr-finetuned-ssv2,hr,C,Dataset characteristic
+facebook/timesformer-hr-finetuned-ssv2,facebook,timesformer-hr-finetuned-ssv2,finetuned,F,Reuse method
+facebook/timesformer-hr-finetuned-ssv2,facebook,timesformer-hr-finetuned-ssv2,ssv2,D,Dataset
+QuantFactory/Llama3.2-3B-Esper2-GGUF,QuantFactory,Llama3.2-3B-Esper2-GGUF,Llama,A,Architecture
+QuantFactory/Llama3.2-3B-Esper2-GGUF,QuantFactory,Llama3.2-3B-Esper2-GGUF,3.2,V,Model version
+QuantFactory/Llama3.2-3B-Esper2-GGUF,QuantFactory,Llama3.2-3B-Esper2-GGUF,3B,P,Number of parameters
+QuantFactory/Llama3.2-3B-Esper2-GGUF,QuantFactory,Llama3.2-3B-Esper2-GGUF,Esper2,O,Other
+QuantFactory/Llama3.2-3B-Esper2-GGUF,QuantFactory,Llama3.2-3B-Esper2-GGUF,GGUF,O,Other
+timm/lcnet_050.ra2_in1k,timm,lcnet_050.ra2_in1k,lcnet,A,Architecture
+timm/lcnet_050.ra2_in1k,timm,lcnet_050.ra2_in1k,050,V,Model version
+timm/lcnet_050.ra2_in1k,timm,lcnet_050.ra2_in1k,ra2,V,Model version
+timm/lcnet_050.ra2_in1k,timm,lcnet_050.ra2_in1k,in1k,D,Dataset
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,Qwen,A,Architecture
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,2.5,V,Model version
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,VL,T,Task or Application Goal
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,7B,P,Number of parameters
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,Instruct,T,Task or Application Goal
+benxh/Qwen2.5-VL-7B-Instruct-GGUF,benxh,Qwen2.5-VL-7B-Instruct-GGUF,GGUF,O,Other
+holistic-ai/rejection_detection,holistic-ai,rejection_detection,rejection_detection,T,Task or Application Goal
+tiiuae/Falcon3-1B-Base,tiiuae,Falcon3-1B-Base,Falcon,A,Architecture
+tiiuae/Falcon3-1B-Base,tiiuae,Falcon3-1B-Base,3,V,Model version
+tiiuae/Falcon3-1B-Base,tiiuae,Falcon3-1B-Base,1B,P,Number of parameters
+tiiuae/Falcon3-1B-Base,tiiuae,Falcon3-1B-Base,Base,S,Model size
+umairrkhn/fine-tuned-nsfw-classification,umairrkhn,fine-tuned-nsfw-classification,fine-tuned,F,Reuse method
+umairrkhn/fine-tuned-nsfw-classification,umairrkhn,fine-tuned-nsfw-classification,nsfw,O,Other
+umairrkhn/fine-tuned-nsfw-classification,umairrkhn,fine-tuned-nsfw-classification,classification,T,Task or Application Goal
+Mozilla/Mistral-7B-Instruct-v0.2-llamafile,Mozilla,Mistral-7B-Instruct-v0.2-llamafile,Mistral,A,Architecture
+Mozilla/Mistral-7B-Instruct-v0.2-llamafile,Mozilla,Mistral-7B-Instruct-v0.2-llamafile,7B,P,Number of parameters
+Mozilla/Mistral-7B-Instruct-v0.2-llamafile,Mozilla,Mistral-7B-Instruct-v0.2-llamafile,Instruct,T,Task or Application Goal
+Mozilla/Mistral-7B-Instruct-v0.2-llamafile,Mozilla,Mistral-7B-Instruct-v0.2-llamafile,v0.2,V,Model version
+Mozilla/Mistral-7B-Instruct-v0.2-llamafile,Mozilla,Mistral-7B-Instruct-v0.2-llamafile,llamafile,O,Other
+timm/fastvit_s12.apple_in1k,timm,fastvit_s12.apple_in1k,fastvit,A,Architecture
+timm/fastvit_s12.apple_in1k,timm,fastvit_s12.apple_in1k,s12,S,Model size
+timm/fastvit_s12.apple_in1k,timm,fastvit_s12.apple_in1k,apple_in1k,D,Dataset
+Helsinki-NLP/opus-mt-es-it,Helsinki-NLP,opus-mt-es-it,opus,A,Architecture
+Helsinki-NLP/opus-mt-es-it,Helsinki-NLP,opus-mt-es-it,mt,T,Task or Application Goal
+Helsinki-NLP/opus-mt-es-it,Helsinki-NLP,opus-mt-es-it,es,L,Language
+Helsinki-NLP/opus-mt-es-it,Helsinki-NLP,opus-mt-es-it,it,L,Language
+E-MIMIC/inclusively-reformulation-it5,E-MIMIC,inclusively-reformulation-it5,inclusively-reformulation,O,Other
+E-MIMIC/inclusively-reformulation-it5,E-MIMIC,inclusively-reformulation-it5,it5,A,Architecture
+Rookie/Llama-3-8B-Instruct-Chinese,Rookie,Llama-3-8B-Instruct-Chinese,Llama,A,Architecture
+Rookie/Llama-3-8B-Instruct-Chinese,Rookie,Llama-3-8B-Instruct-Chinese,3,V,Model version
+Rookie/Llama-3-8B-Instruct-Chinese,Rookie,Llama-3-8B-Instruct-Chinese,8B,P,Number of parameters
+Rookie/Llama-3-8B-Instruct-Chinese,Rookie,Llama-3-8B-Instruct-Chinese,Instruct,T,Task or Application Goal
+Rookie/Llama-3-8B-Instruct-Chinese,Rookie,Llama-3-8B-Instruct-Chinese,Chinese,L,Language
+misri/zavychromaxl_v90,misri,zavychromaxl_v90,zavychromaxl,A,Architecture
+misri/zavychromaxl_v90,misri,zavychromaxl_v90,v90,V,Model version
+microsoft/xclip-base-patch32,microsoft,xclip-base-patch32,xclip,A,Architecture
+microsoft/xclip-base-patch32,microsoft,xclip-base-patch32,base,S,Model size
+microsoft/xclip-base-patch32,microsoft,xclip-base-patch32,patch32,C,Dataset characteristic
+mncai/mistral-7b-dpo-v5,mncai,mistral-7b-dpo-v5,mistral,A,Architecture
+mncai/mistral-7b-dpo-v5,mncai,mistral-7b-dpo-v5,7b,P,Number of parameters
+mncai/mistral-7b-dpo-v5,mncai,mistral-7b-dpo-v5,dpo,R,Training process
+mncai/mistral-7b-dpo-v5,mncai,mistral-7b-dpo-v5,v5,V,Model version
+Andron00e/YetAnother_Open-Llama-3B-LoRA,Andron00e,YetAnother_Open-Llama-3B-LoRA,YetAnother_Open-Llama,A,Architecture
+Andron00e/YetAnother_Open-Llama-3B-LoRA,Andron00e,YetAnother_Open-Llama-3B-LoRA,3B,P,Number of parameters
+Andron00e/YetAnother_Open-Llama-3B-LoRA,Andron00e,YetAnother_Open-Llama-3B-LoRA,LoRA,F,Reuse method
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,L3,A,Architecture
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,MOE,A,Architecture
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,8X8B,S,Model size
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,Dark-Planet,D,Dataset
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,8D,C,Dataset characteristic
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,Mirrored-Chaos,D,Dataset
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,47B,P,Number of parameters
+DavidAU/L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,DavidAU,L3-MOE-8X8B-Dark-Planet-8D-Mirrored-Chaos-47B-GGUF,GGUF,O,Other
+facebook/esm1v_t33_650M_UR90S_1,facebook,esm1v_t33_650M_UR90S_1,esm1v,A,Architecture
+facebook/esm1v_t33_650M_UR90S_1,facebook,esm1v_t33_650M_UR90S_1,t33,V,Model version
+facebook/esm1v_t33_650M_UR90S_1,facebook,esm1v_t33_650M_UR90S_1,650M,P,Number of parameters
+facebook/esm1v_t33_650M_UR90S_1,facebook,esm1v_t33_650M_UR90S_1,UR90S,D,Dataset
+facebook/esm1v_t33_650M_UR90S_1,facebook,esm1v_t33_650M_UR90S_1,1,V,Model version
+alvdansen/vincentsketchmanga,alvdansen,vincentsketchmanga,vincentsketchmanga,O,Other
+ENERGY-DRINK-LOVE/rtzr_dpo-v4-hq,ENERGY-DRINK-LOVE,rtzr_dpo-v4-hq,rtzr,A,Architecture
+ENERGY-DRINK-LOVE/rtzr_dpo-v4-hq,ENERGY-DRINK-LOVE,rtzr_dpo-v4-hq,dpo,R,Training process
+ENERGY-DRINK-LOVE/rtzr_dpo-v4-hq,ENERGY-DRINK-LOVE,rtzr_dpo-v4-hq,v4,V,Model version
+ENERGY-DRINK-LOVE/rtzr_dpo-v4-hq,ENERGY-DRINK-LOVE,rtzr_dpo-v4-hq,hq,C,Dataset characteristic
+lmstudio-community/granite-3.2-8b-instruct-GGUF,lmstudio-community,granite-3.2-8b-instruct-GGUF,granite,A,Architecture
+lmstudio-community/granite-3.2-8b-instruct-GGUF,lmstudio-community,granite-3.2-8b-instruct-GGUF,3.2,V,Model version
+lmstudio-community/granite-3.2-8b-instruct-GGUF,lmstudio-community,granite-3.2-8b-instruct-GGUF,8b,P,Number of parameters
+lmstudio-community/granite-3.2-8b-instruct-GGUF,lmstudio-community,granite-3.2-8b-instruct-GGUF,instruct,T,Task or Application Goal
+lmstudio-community/granite-3.2-8b-instruct-GGUF,lmstudio-community,granite-3.2-8b-instruct-GGUF,GGUF,O,Other
+dccuchile/bert-base-spanish-wwm-cased,dccuchile,bert-base-spanish-wwm-cased,bert,A,Architecture
+dccuchile/bert-base-spanish-wwm-cased,dccuchile,bert-base-spanish-wwm-cased,base,S,Model size
+dccuchile/bert-base-spanish-wwm-cased,dccuchile,bert-base-spanish-wwm-cased,spanish,L,Language
+dccuchile/bert-base-spanish-wwm-cased,dccuchile,bert-base-spanish-wwm-cased,wwm,C,Dataset characteristic
+dccuchile/bert-base-spanish-wwm-cased,dccuchile,bert-base-spanish-wwm-cased,cased,C,Dataset characteristic
+katuni4ka/tiny-random-minicpm3,katuni4ka,tiny-random-minicpm3,tiny,S,Model size
+katuni4ka/tiny-random-minicpm3,katuni4ka,tiny-random-minicpm3,random,O,Other
+katuni4ka/tiny-random-minicpm3,katuni4ka,tiny-random-minicpm3,minicpm3,A,Architecture
+migtissera/Synthia-70B-v1.1,migtissera,Synthia-70B-v1.1,Synthia,A,Architecture
+migtissera/Synthia-70B-v1.1,migtissera,Synthia-70B-v1.1,70B,P,Number of parameters
+migtissera/Synthia-70B-v1.1,migtissera,Synthia-70B-v1.1,v1.1,V,Model version
+Aeala/GPT4-x-AlpacaDente-30b,Aeala,GPT4-x-AlpacaDente-30b,GPT4,A,Architecture
+Aeala/GPT4-x-AlpacaDente-30b,Aeala,GPT4-x-AlpacaDente-30b,x,O,Other
+Aeala/GPT4-x-AlpacaDente-30b,Aeala,GPT4-x-AlpacaDente-30b,AlpacaDente,O,Other
+Aeala/GPT4-x-AlpacaDente-30b,Aeala,GPT4-x-AlpacaDente-30b,30b,P,Number of parameters
+sapienzanlp/Minerva-7B-base-v1.0,sapienzanlp,Minerva-7B-base-v1.0,Minerva,A,Architecture
+sapienzanlp/Minerva-7B-base-v1.0,sapienzanlp,Minerva-7B-base-v1.0,7B,P,Number of parameters
+sapienzanlp/Minerva-7B-base-v1.0,sapienzanlp,Minerva-7B-base-v1.0,base,S,Model size
+sapienzanlp/Minerva-7B-base-v1.0,sapienzanlp,Minerva-7B-base-v1.0,v1.0,V,Model version
+mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf,mmnga,DataPilot-ArrowPro-7B-KUJIRA-gguf,DataPilot,A,Architecture
+mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf,mmnga,DataPilot-ArrowPro-7B-KUJIRA-gguf,ArrowPro,O,Other
+mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf,mmnga,DataPilot-ArrowPro-7B-KUJIRA-gguf,7B,P,Number of parameters
+mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf,mmnga,DataPilot-ArrowPro-7B-KUJIRA-gguf,KUJIRA,O,Other
+mmnga/DataPilot-ArrowPro-7B-KUJIRA-gguf,mmnga,DataPilot-ArrowPro-7B-KUJIRA-gguf,gguf,O,Other
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,llama,A,Architecture
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,2,V,Model version
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,70b,P,Number of parameters
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,Guanaco,O,Other
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,QLoRA,F,Reuse method
+TheBloke/llama-2-70b-Guanaco-QLoRA-fp16,TheBloke,llama-2-70b-Guanaco-QLoRA-fp16,fp16,C,Dataset characteristic
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,Llama,A,Architecture
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,3.2,V,Model version
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,90B,P,Number of parameters
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,Vision,T,Task or Application Goal
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,Instruct,T,Task or Application Goal
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,FP8,C,Dataset characteristic
+neuralmagic/Llama-3.2-90B-Vision-Instruct-FP8-dynamic,neuralmagic,Llama-3.2-90B-Vision-Instruct-FP8-dynamic,dynamic,C,Dataset characteristic
+google/flan-t5-small,google,flan-t5-small,flan-t5,A,Architecture
+google/flan-t5-small,google,flan-t5-small,small,S,Model size
+lorahub/flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,lorahub,flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,flan_t5,A,Architecture
+lorahub/flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,lorahub,flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,large,S,Model size
+lorahub/flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,lorahub,flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,dbpedia_14,D,Dataset
+lorahub/flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,lorahub,flan_t5_large-dbpedia_14_given_a_list_of_category_what_does_the_title_belong_to,given_a_list_of_category_what_does_the_title_belong_to,T,Task or Application Goal
+openart-custom/DucHaiten-AIart-SDXL_v3,openart-custom,DucHaiten-AIart-SDXL_v3,DucHaiten,A,Architecture
+openart-custom/DucHaiten-AIart-SDXL_v3,openart-custom,DucHaiten-AIart-SDXL_v3,AIart,T,Task or Application Goal
+openart-custom/DucHaiten-AIart-SDXL_v3,openart-custom,DucHaiten-AIart-SDXL_v3,SDXL,O,Other
+openart-custom/DucHaiten-AIart-SDXL_v3,openart-custom,DucHaiten-AIart-SDXL_v3,v3,V,Model version
+Helsinki-NLP/opus-tatoeba-en-tr,Helsinki-NLP,opus-tatoeba-en-tr,opus,A,Architecture
+Helsinki-NLP/opus-tatoeba-en-tr,Helsinki-NLP,opus-tatoeba-en-tr,tatoeba,D,Dataset
+Helsinki-NLP/opus-tatoeba-en-tr,Helsinki-NLP,opus-tatoeba-en-tr,en,L,Language
+Helsinki-NLP/opus-tatoeba-en-tr,Helsinki-NLP,opus-tatoeba-en-tr,tr,L,Language
+uukuguy/speechless-mistral-six-in-one-7b-orth-1.0,uukuguy,speechless-mistral-six-in-one-7b-orth-1.0,speechless-mistral,A,Architecture
+uukuguy/speechless-mistral-six-in-one-7b-orth-1.0,uukuguy,speechless-mistral-six-in-one-7b-orth-1.0,six-in-one,O,Other
+uukuguy/speechless-mistral-six-in-one-7b-orth-1.0,uukuguy,speechless-mistral-six-in-one-7b-orth-1.0,7b,P,Number of parameters
+uukuguy/speechless-mistral-six-in-one-7b-orth-1.0,uukuguy,speechless-mistral-six-in-one-7b-orth-1.0,orth,O,Other
+uukuguy/speechless-mistral-six-in-one-7b-orth-1.0,uukuguy,speechless-mistral-six-in-one-7b-orth-1.0,1.0,V,Model version
+Rostlab/prot_t5_xl_bfd,Rostlab,prot_t5_xl_bfd,prot_t5,A,Architecture
+Rostlab/prot_t5_xl_bfd,Rostlab,prot_t5_xl_bfd,xl,S,Model size
+Rostlab/prot_t5_xl_bfd,Rostlab,prot_t5_xl_bfd,bfd,D,Dataset
+ibm-granite/granite-20b-code-instruct-8k,ibm-granite,granite-20b-code-instruct-8k,granite,A,Architecture
+ibm-granite/granite-20b-code-instruct-8k,ibm-granite,granite-20b-code-instruct-8k,20b,P,Number of parameters
+ibm-granite/granite-20b-code-instruct-8k,ibm-granite,granite-20b-code-instruct-8k,code,T,Task or Application Goal
+ibm-granite/granite-20b-code-instruct-8k,ibm-granite,granite-20b-code-instruct-8k,instruct,T,Task or Application Goal
+ibm-granite/granite-20b-code-instruct-8k,ibm-granite,granite-20b-code-instruct-8k,8k,C,Dataset characteristic
+KoichiYasuoka/roberta-large-english-upos,KoichiYasuoka,roberta-large-english-upos,roberta,A,Architecture
+KoichiYasuoka/roberta-large-english-upos,KoichiYasuoka,roberta-large-english-upos,large,S,Model size
+KoichiYasuoka/roberta-large-english-upos,KoichiYasuoka,roberta-large-english-upos,english,L,Language
+KoichiYasuoka/roberta-large-english-upos,KoichiYasuoka,roberta-large-english-upos,upos,T,Task or Application Goal
+bartowski/Qwen2.5-14B_Uncencored-GGUF,bartowski,Qwen2.5-14B_Uncencored-GGUF,Qwen,A,Architecture
+bartowski/Qwen2.5-14B_Uncencored-GGUF,bartowski,Qwen2.5-14B_Uncencored-GGUF,2.5,V,Model version
+bartowski/Qwen2.5-14B_Uncencored-GGUF,bartowski,Qwen2.5-14B_Uncencored-GGUF,14B,P,Number of parameters
+bartowski/Qwen2.5-14B_Uncencored-GGUF,bartowski,Qwen2.5-14B_Uncencored-GGUF,Uncencored,C,Dataset characteristic
+bartowski/Qwen2.5-14B_Uncencored-GGUF,bartowski,Qwen2.5-14B_Uncencored-GGUF,GGUF,O,Other
+autogluon/tabpfn-mix-1.0-regressor,autogluon,tabpfn-mix-1.0-regressor,tabpfn,A,Architecture
+autogluon/tabpfn-mix-1.0-regressor,autogluon,tabpfn-mix-1.0-regressor,mix,O,Other
+autogluon/tabpfn-mix-1.0-regressor,autogluon,tabpfn-mix-1.0-regressor,1.0,V,Model version
+autogluon/tabpfn-mix-1.0-regressor,autogluon,tabpfn-mix-1.0-regressor,regressor,T,Task or Application Goal
+ogimgio/gpt-neo-125m-neurallinguisticpioneers,ogimgio,gpt-neo-125m-neurallinguisticpioneers,gpt-neo,A,Architecture
+ogimgio/gpt-neo-125m-neurallinguisticpioneers,ogimgio,gpt-neo-125m-neurallinguisticpioneers,125m,P,Number of parameters
+ogimgio/gpt-neo-125m-neurallinguisticpioneers,ogimgio,gpt-neo-125m-neurallinguisticpioneers,neurallinguisticpioneers,O,Other
+Niggendar/mfcgPaintjob_v20,Niggendar,mfcgPaintjob_v20,mfcgPaintjob,A,Architecture
+Niggendar/mfcgPaintjob_v20,Niggendar,mfcgPaintjob_v20,v20,V,Model version
+TheBloke/Mixtral-8x7B-v0.1-GGUF,TheBloke,Mixtral-8x7B-v0.1-GGUF,Mixtral,A,Architecture
+TheBloke/Mixtral-8x7B-v0.1-GGUF,TheBloke,Mixtral-8x7B-v0.1-GGUF,8x7B,S,Model size
+TheBloke/Mixtral-8x7B-v0.1-GGUF,TheBloke,Mixtral-8x7B-v0.1-GGUF,v0.1,V,Model version
+TheBloke/Mixtral-8x7B-v0.1-GGUF,TheBloke,Mixtral-8x7B-v0.1-GGUF,GGUF,O,Other
+yeen214/llama2_7b_platypus_tuning,yeen214,llama2_7b_platypus_tuning,llama2,A,Architecture
+yeen214/llama2_7b_platypus_tuning,yeen214,llama2_7b_platypus_tuning,7b,P,Number of parameters
+yeen214/llama2_7b_platypus_tuning,yeen214,llama2_7b_platypus_tuning,platypus,O,Other
+yeen214/llama2_7b_platypus_tuning,yeen214,llama2_7b_platypus_tuning,tuning,F,Reuse method
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,llava,A,Architecture
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,prumerge,O,Other
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,vicuna,O,Other
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,7b,P,Number of parameters
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,v1.5,V,Model version
+yuzhang/llava-prumerge-vicuna-7b-v1.5-lora,yuzhang,llava-prumerge-vicuna-7b-v1.5-lora,lora,F,Reuse method
+savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,bert,A,Architecture
+savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,base,S,Model size
+savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,turkish,L,Language
+savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,sentiment,T,Task or Application Goal
+savasy/bert-base-turkish-sentiment-cased,savasy,bert-base-turkish-sentiment-cased,cased,C,Dataset characteristic
+Lykon/AAM_XL_AnimeMix,Lykon,AAM_XL_AnimeMix,AAM_XL,A,Architecture
+Lykon/AAM_XL_AnimeMix,Lykon,AAM_XL_AnimeMix,AnimeMix,O,Other
