@@ -17,7 +17,7 @@ from loguru import logger
 from tqdm import tqdm
 
 from system_prompt import BACKGROUND_PROMPT
-from schema import JSON_SCHEMA, CATEGORIES
+from schema import JSON_SCHEMA
 
 # --- Configuration ---
 CSV_FILE_PATH = 'data/HF_pkgs.csv'
@@ -25,7 +25,7 @@ OUTPUT_JSON_PATH = 'data/hf_pkg_elements.json'
 OUTPUT_CSV_PATH = 'data/hf_pkg_elements.csv'
 MIN_DOWNLOADS = 1000
 BATCH_SIZE = 100  # Number of models to process in one API call
-MAX_RERUNS = 8  # Maximum retries for a failed batch with reduced size
+MAX_RERUNS = 3 # Maximum retries for a failed batch with reduced size
 MODEL_NAME = "o4-mini-2025-04-16"
 COST_PER_PROMPT_TOKEN = 1.10 / 1_000_000
 COST_PER_COMPLETION_TOKEN = 4.40 / 1_000_000
@@ -99,7 +99,7 @@ def call_openai_api(package_batch: list[str]):
         model=MODEL_NAME,
         messages=chatlog,
         reasoning_effort="low",
-        response_format={"type": "json_object"}
+        response_format={"type": "json_schema", "json_schema": {"name": "PackageAnalysis", "schema": JSON_SCHEMA, "strict": True}}
     )
     return response
 
@@ -182,7 +182,6 @@ def convert_to_csv(json_data: dict, output_csv_path: str):
         for mapping in component_mappings:
             component = mapping.get('component', '')
             category = mapping.get('category', '')
-            category_name = CATEGORIES.get(category, 'Unknown')
             
             # Create a row for this component
             row = {
@@ -190,8 +189,7 @@ def convert_to_csv(json_data: dict, output_csv_path: str):
                 'namespace': namespace,
                 'model_part': model_part,
                 'component': component,
-                'category': category,
-                'category_name': category_name
+                'category': category
             }
             rows.append(row)
     

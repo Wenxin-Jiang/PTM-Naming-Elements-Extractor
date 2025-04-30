@@ -2,26 +2,7 @@
 Schema definitions for the package name element extractor.
 """
 
-# --- Name Element Categories --- 
-CATEGORIES = {
-    'A': 'Architecture',
-    'S': 'Model size',
-    'D': 'Dataset',
-    'C': 'Dataset characteristic',
-    'V': 'Model version',
-    'F': 'Reuse method',
-    'L': 'Language',
-    'T': 'Task or Application Goal',
-    'R': 'Training process',
-    'N': 'Number of layers',
-    'H': 'Number of heads',
-    'P': 'Number of parameters',
-    'W': 'Framework/Format',
-    'M': 'Company/Organization',
-    'O': 'Other'
-}
 
-# --- JSON Schema for response format ---
 JSON_SCHEMA = {
     "type": "object",
     "properties": {
@@ -50,14 +31,17 @@ JSON_SCHEMA = {
                                     "description": "Category code (A, S, D, etc.)"
                                 }
                             },
-                            "required": ["component", "category"]
+                            "required": ["component", "category"],
+                            "additionalProperties": False  # Disallow extra fields in component mapping
                         }
                     }
                 },
-                "required": ["name", "componentMapping"]
+                "required": ["name", "componentMapping"],
+                "additionalProperties": False  # Disallow extra fields in package analysis items
             }
         }
     },
-    "required": ["packageAnalysis"]
+    "required": ["packageAnalysis"],
+    "additionalProperties": False  # Disallow extra fields at the top level
 }
 
