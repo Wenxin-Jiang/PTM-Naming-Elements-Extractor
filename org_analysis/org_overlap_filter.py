@@ -13,8 +13,9 @@ logger = logging.getLogger(__name__)
 
 # --- Configuration ---
 DEFAULT_INPUT_DIR = Path(__file__).parent / "results"
-DEFAULT_INPUT_FILE = DEFAULT_INPUT_DIR / "gemini_filtered_results_all.csv"
-DEFAULT_OUTPUT_FILE = DEFAULT_INPUT_DIR / "overlap_filtered_results.csv"
+DEFAULT_GEMINI_INPUT_FILE = DEFAULT_INPUT_DIR / "gemini_filtered_results_all.csv"
+DEFAULT_OPENAI_INPUT_FILE = DEFAULT_INPUT_DIR / "openai_filtered_results_all.csv"
+DEFAULT_OUTPUT_DIR = DEFAULT_INPUT_DIR / "overlap_analysis" # Changed to output directory
 HF_API_BASE = "https://huggingface.co/api"
 API_CALL_DELAY = 2  # Seconds between API calls to avoid rate limiting
 MAX_RETRIES = 3
@@ -128,11 +129,13 @@ def check_member_overlap(spoof_org_id: str, target_org_id: str, hf_token: Option
          if spoof_status == "success" and target_status == "success":
              logger.info(f"No overlap found for '{spoof_org_id}' vs '{target_org_id}' (one or both member lists are empty).")
              return False, spoof_status, target_status
-         elif spoof_status in ["private_or_empty", "success"] and target_status in ["private_or_empty", "success"]:
+         # Check if either org returned 'private' status - treat as no overlap if the other was successful or also private
+         elif (spoof_status == "private" and target_status in ["success", "private"]) or \
+              (target_status == "private" and spoof_status in ["success", "private"]):
              logger.info(f"Assuming no overlap for '{spoof_org_id}' vs '{target_org_id}' due to private/empty member lists.")
-             return False, spoof_status, target_status # Treat private/empty as no overlap
+             return False, spoof_status, target_status # Treat private as no overlap if the other is okay or also private
          else:
-             # If one had an error but the other was empty/private
+             # If one had an error but the other was empty/private/success
              logger.warning(f"Could not reliably determine overlap for '{spoof_org_id}' vs '{target_org_id}' (API status: {spoof_status}, {target_status}).")
              return None, spoof_status, target_status
 
@@ -146,58 +149,79 @@ def check_member_overlap(spoof_org_id: str, target_org_id: str, hf_token: Option
         logger.info(f"No overlap found for '{spoof_org_id}' vs '{target_org_id}'.")
         return False, spoof_status, target_status
 
-def main():
-    parser = argparse.ArgumentParser(description="Filter confirmed typosquats based on Hugging Face organization member overlap.")
-    parser.add_argument("--input", type=str, help="Path to input CSV file with confirmed typosquats",
-                        default=str(DEFAULT_INPUT_FILE))
-    parser.add_argument("--output", type=str, help="Path to output CSV file for overlap-filtered results",
-                        default=str(DEFAULT_OUTPUT_FILE))
-    parser.add_argument("--hf-token", type=str, help="Hugging Face API token (optional, increases rate limits and accesses private info)", default=None)
-    parser.add_argument("--limit", type=int, help="Limit number of pairs to process (for testing)", default=None)
+def process_input_file(input_path: Path, output_dir: Path, hf_token: Optional[str], limit: Optional[int]):
+    """Processes a single input CSV file for member overlap."""
+    logger.info(f"--- Starting processing for: {input_path.name} ---")
+    output_dir.mkdir(parents=True, exist_ok=True) # Ensure output dir exists for this file
 
-    args = parser.parse_args()
-
-    input_path = Path(args.input)
-    output_path = Path(args.output)
-    hf_token = args.hf_token or os.environ.get("HF_TOKEN")
-
-    # Ensure output directory exists
-    output_path.parent.mkdir(parents=True, exist_ok=True)
+    # Define output paths based on input file name
+    base_output_name = input_path.stem.replace("_filtered_results_all", "") # e.g., "gemini" or "openai"
+    output_path = output_dir / f"{base_output_name}_overlap_filtered.csv"
+    tp_path = output_dir / f"{base_output_name}_overlap_true_positives.csv"
+    fp_path = output_dir / f"{base_output_name}_overlap_false_positives.csv"
+    und_path = output_dir / f"{base_output_name}_overlap_undetermined.csv"
 
     # Load input CSV
     if not input_path.exists():
         logger.error(f"Input file not found: {input_path}")
         return
-        
+
     try:
         df = pd.read_csv(input_path)
-        # Ensure we only process rows marked as typosquats by Gemini (redundant if input is _confirmed)
-        df = df[df['is_typosquat'] == True].copy() 
-        logger.info(f"Loaded {len(df)} confirmed typosquat pairs from {input_path}")
+        # Filter for rows marked as typosquats
+        # Check if 'is_typosquat' column exists and is boolean
+        if 'is_typosquat' in df.columns and df['is_typosquat'].dtype == 'bool':
+             initial_count = len(df)
+             df = df[df['is_typosquat'] == True].copy()
+             logger.info(f"Loaded {initial_count} rows from {input_path}, filtered to {len(df)} confirmed typosquat pairs.")
+        elif 'is_typosquat' in df.columns:
+            # Handle cases where it might be string "True"/"False"
+            initial_count = len(df)
+            df['is_typosquat'] = df['is_typosquat'].astype(str).str.lower() == 'true'
+            df = df[df['is_typosquat'] == True].copy()
+            logger.warning(f"'is_typosquat' column in {input_path.name} was not boolean. Attempted conversion.")
+            logger.info(f"Loaded {initial_count} rows, filtered to {len(df)} confirmed typosquat pairs after conversion.")
+        else:
+             logger.warning(f"'is_typosquat' column not found in {input_path.name}. Processing all rows.")
+             # Decide how to handle this: process all, or skip? Let's process all for now.
+             # df = df.copy() # No filtering needed if column is missing
+        
     except Exception as e:
-        logger.error(f"Error loading input CSV '{input_path}': {str(e)}")
+        logger.error(f"Error loading or filtering input CSV '{input_path}': {str(e)}")
         return
 
     if df.empty:
-        logger.info("Input file contains no confirmed typosquat pairs to process.")
-        # Create empty output file?
-        pd.DataFrame(columns=list(df.columns) + ['has_member_overlap', 'final_verdict', 'spoof_org_status', 'target_org_status']).to_csv(output_path, index=False)
+        logger.info(f"Input file {input_path.name} contains no typosquat pairs to process after filtering.")
+        # Create empty output file with expected columns
+        empty_cols = list(pd.read_csv(input_path, nrows=0).columns) + ['has_member_overlap', 'final_verdict', 'spoof_org_status', 'target_org_status']
+        pd.DataFrame(columns=empty_cols).to_csv(output_path, index=False)
+        logger.info(f"Created empty output file: {output_path}")
         return
-        
+
     # Limit number of pairs if requested
-    if args.limit and args.limit > 0:
-        df = df.head(args.limit)
-        logger.info(f"Limited to first {args.limit} pairs for processing")
+    if limit and limit > 0:
+        df = df.head(limit)
+        logger.info(f"Limited to first {limit} pairs for processing from {input_path.name}")
 
     results = []
     processed_count = 0
     start_time = time.time()
 
     for index, row in df.iterrows():
+        # Ensure columns exist before accessing
+        if 'potential_spoof_org' not in row or 'legitimate_target_org' not in row:
+            logger.warning(f"Skipping row {index} in {input_path.name} due to missing required columns ('potential_spoof_org' or 'legitimate_target_org').")
+            continue
+            
         spoof_org = row['potential_spoof_org']
         target_org = row['legitimate_target_org']
 
-        logger.info(f"Processing pair {index + 1}/{len(df)}: '{spoof_org}' vs '{target_org}'")
+        # Basic check for valid org names (simple example, might need refinement)
+        if not isinstance(spoof_org, str) or not spoof_org or not isinstance(target_org, str) or not target_org:
+             logger.warning(f"Skipping row {index} in {input_path.name} due to invalid/empty organization names: Spoof='{spoof_org}', Target='{target_org}'")
+             continue
+
+        logger.info(f"Processing pair {index + 1}/{len(df)} from {input_path.name}: '{spoof_org}' vs '{target_org}'")
 
         has_overlap, spoof_status, target_status = check_member_overlap(spoof_org, target_org, hf_token)
 
@@ -209,50 +233,74 @@ def main():
         if has_overlap is True:
             result_row['final_verdict'] = "False Positive (Overlap)"
         elif has_overlap is False:
-             result_row['final_verdict'] = "True Positive (No Overlap)"
+            result_row['final_verdict'] = "True Positive (No Overlap)"
         else: # has_overlap is None
-            result_row['final_verdict'] = "Undetermined (API Error)"
-            
+            result_row['final_verdict'] = "Undetermined (API Error/Private)" # Adjusted verdict
+
         results.append(result_row)
         processed_count += 1
-        
-        # Save incrementally after every N pairs? Optional.
-        # if processed_count % 10 == 0:
+
+        # Optional incremental saving
+        # if processed_count % 50 == 0:
         #     temp_df = pd.DataFrame(results)
         #     temp_df.to_csv(output_path.with_suffix('.tmp.csv'), index=False)
-        #     logger.info(f"Saved intermediate results for {processed_count} pairs.")
+        #     logger.info(f"Saved intermediate results for {processed_count} pairs from {input_path.name}.")
 
-    # Create final DataFrame
+
+    # Create final DataFrame for this input file
+    if not results:
+        logger.warning(f"No results generated for {input_path.name}. Skipping saving.")
+        return
+        
     results_df = pd.DataFrame(results)
 
-    # Separate into True Positives and False Positives
+    # Separate into True Positives, False Positives, and Undetermined
     true_positives_df = results_df[results_df['final_verdict'] == "True Positive (No Overlap)"].copy()
     false_positives_df = results_df[results_df['final_verdict'] == "False Positive (Overlap)"].copy()
-    undetermined_df = results_df[results_df['final_verdict'] == "Undetermined (API Error)"].copy()
+    undetermined_df = results_df[results_df['final_verdict'] == "Undetermined (API Error/Private)"].copy()
 
     # Save results
     try:
         results_df.to_csv(output_path, index=False)
-        logger.info(f"Saved all {len(results_df)} overlap-checked results to {output_path}")
-        
-        tp_path = output_path.with_name(f"{output_path.stem}_true_positives{output_path.suffix}")
-        true_positives_df.to_csv(tp_path, index=False)
-        logger.info(f"Saved {len(true_positives_df)} true positives (no overlap) to {tp_path}")
+        logger.info(f"Saved all {len(results_df)} overlap-checked results for {input_path.name} to {output_path}")
 
-        fp_path = output_path.with_name(f"{output_path.stem}_false_positives{output_path.suffix}")
+        true_positives_df.to_csv(tp_path, index=False)
+        logger.info(f"Saved {len(true_positives_df)} true positives (no overlap) for {input_path.name} to {tp_path}")
+
         false_positives_df.to_csv(fp_path, index=False)
-        logger.info(f"Saved {len(false_positives_df)} false positives (overlap) to {fp_path}")
-        
-        und_path = output_path.with_name(f"{output_path.stem}_undetermined{output_path.suffix}")
+        logger.info(f"Saved {len(false_positives_df)} false positives (overlap) for {input_path.name} to {fp_path}")
+
         undetermined_df.to_csv(und_path, index=False)
-        logger.info(f"Saved {len(undetermined_df)} undetermined pairs (API errors) to {und_path}")
-        
+        logger.info(f"Saved {len(undetermined_df)} undetermined pairs (API errors/private) for {input_path.name} to {und_path}")
+
     except Exception as e:
-        logger.error(f"Error saving results to CSV: {e}")
+        logger.error(f"Error saving results for {input_path.name} to CSV: {e}")
 
     total_time = time.time() - start_time
-    logger.info(f"Overlap filtering complete in {total_time:.1f}s")
-    logger.info(f"True Positives: {len(true_positives_df)}, False Positives: {len(false_positives_df)}, Undetermined: {len(undetermined_df)}")
+    logger.info(f"Overlap filtering for {input_path.name} complete in {total_time:.1f}s")
+    logger.info(f"Results for {input_path.name} -> True Positives: {len(true_positives_df)}, False Positives: {len(false_positives_df)}, Undetermined: {len(undetermined_df)}")
+    logger.info(f"--- Finished processing for: {input_path.name} ---")
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Filter confirmed typosquats based on Hugging Face organization member overlap.")
+    parser.add_argument("--input", type=str, nargs='+', help="Path(s) to input CSV file(s) with potential typosquats",
+                        default=[str(DEFAULT_GEMINI_INPUT_FILE), str(DEFAULT_OPENAI_INPUT_FILE)])
+    parser.add_argument("--output-dir", type=str, help="Path to output directory for overlap-filtered results",
+                        default=str(DEFAULT_OUTPUT_DIR))
+    parser.add_argument("--hf-token", type=str, help="Hugging Face API token (optional, increases rate limits and accesses private info)", default=None)
+    parser.add_argument("--limit", type=int, help="Limit number of pairs to process per input file (for testing)", default=None)
+
+    args = parser.parse_args()
+
+    output_dir = Path(args.output_dir)
+    hf_token = args.hf_token or os.environ.get("HF_TOKEN")
+
+    # Loop through each input file path provided
+    for input_file_str in args.input:
+        input_path = Path(input_file_str)
+        process_input_file(input_path, output_dir, hf_token, args.limit)
+
 
 if __name__ == "__main__":
     main()
